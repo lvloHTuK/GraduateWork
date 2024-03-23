@@ -1,13 +1,15 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using IHostingEnvironment = Microsoft.AspNetCore.Hosting.IHostingEnvironment;
+using System.Reflection.Metadata;
+using System.Text.Json;
 
 namespace CheckAnalysis.Models
 {
     public class CheckFile
     {
-        public int Id { get; set; }
-        public DateTime CreatedDate { get; set; }
+        public string _id { get; set; }
+        public DateTimeOffset createdAt { get; set; }
+        public CheckDocument ticket { get; set; }
         
     }
 }

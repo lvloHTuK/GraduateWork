@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2/t4C+E66mKioDib0qM+IT5r9P9VRzfyT/gMbxi6PblB2ApEgKK3u+R7zW/1kk4KCpJ1MOQ9WnFz414BgsmGDw==",
+  "dgSpecHash": "NRMS8zL2G/+3FQKGUiFf5ueOSbJGdwqNlh45MeUOGv/lPNjg4pudoh1Q3VXXU+yEGuzjKgL+mFWF/veW0GmRIA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Vladi\\Documents\\My Games\\TestTask\\CheckAnalysis\\CheckAnalysis\\CheckAnalysis.csproj",
+  "projectFilePath": "C:\\Users\\Vladi\\Documents\\MyFolder\\GraduateWork\\CheckAnalysis\\CheckAnalysis.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Vladi\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Vladi\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

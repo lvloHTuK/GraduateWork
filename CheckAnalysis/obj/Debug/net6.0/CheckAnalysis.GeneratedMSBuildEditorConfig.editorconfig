@@ -8,37 +8,37 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CheckAnalysis
 build_property.RootNamespace = CheckAnalysis
-build_property.ProjectDir = C:\Users\Vladi\Documents\My Games\TestTask\CheckAnalysis\CheckAnalysis\
+build_property.ProjectDir = C:\Users\Vladi\Documents\MyFolder\GraduateWork\CheckAnalysis\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Vladi\Documents\My Games\TestTask\CheckAnalysis\CheckAnalysis
+build_property.MSBuildProjectDirectory = C:\Users\Vladi\Documents\MyFolder\GraduateWork\CheckAnalysis
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Vladi/Documents/My Games/TestTask/CheckAnalysis/CheckAnalysis/Views/Home/CheckSort.cshtml]
+[C:/Users/Vladi/Documents/MyFolder/GraduateWork/CheckAnalysis/Views/Home/CheckSort.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDaGVja1NvcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vladi/Documents/My Games/TestTask/CheckAnalysis/CheckAnalysis/Views/Home/Index.cshtml]
+[C:/Users/Vladi/Documents/MyFolder/GraduateWork/CheckAnalysis/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vladi/Documents/My Games/TestTask/CheckAnalysis/CheckAnalysis/Views/Shared/Error.cshtml]
+[C:/Users/Vladi/Documents/MyFolder/GraduateWork/CheckAnalysis/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vladi/Documents/My Games/TestTask/CheckAnalysis/CheckAnalysis/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Vladi/Documents/MyFolder/GraduateWork/CheckAnalysis/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vladi/Documents/My Games/TestTask/CheckAnalysis/CheckAnalysis/Views/_ViewImports.cshtml]
+[C:/Users/Vladi/Documents/MyFolder/GraduateWork/CheckAnalysis/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vladi/Documents/My Games/TestTask/CheckAnalysis/CheckAnalysis/Views/_ViewStart.cshtml]
+[C:/Users/Vladi/Documents/MyFolder/GraduateWork/CheckAnalysis/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vladi/Documents/My Games/TestTask/CheckAnalysis/CheckAnalysis/Views/Shared/_Layout.cshtml]
+[C:/Users/Vladi/Documents/MyFolder/GraduateWork/CheckAnalysis/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-kzhh54kcox
