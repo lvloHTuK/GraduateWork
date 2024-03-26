@@ -3,17 +3,24 @@ using CheckAnalysis.Models;
 using System.Diagnostics;
 using System.Text.Json;
 using System.IO;
+using CheckAnalysis.Data.Repositories;
 
 namespace CheckAnalysis.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly CheckDataRepository _checkDataRepository;
+
+        public HomeController(CheckDataRepository checkDataRepository)
+        {
+            _checkDataRepository = checkDataRepository;
+        }
         public IActionResult Index()
         {
             return View();
         }
 
-        public IActionResult UploadFiles(IFormCollection files)
+        public async Task<IActionResult> UploadFiles(IFormCollection files)
         {
             foreach (var file in files.Files)
             {
@@ -51,16 +58,13 @@ namespace CheckAnalysis.Controllers
                             jsonCheck = jsonCheck.Trim('[');
                             jsonCheck = jsonCheck.Trim(',');
                             CheckFile check = JsonSerializer.Deserialize<CheckFile>(jsonCheck);
+                            await _checkDataRepository.Add(check);
                             jsonCheck = "";
                         }
                     }
                 }
-
-
             }
-
-
-
+            _checkDataRepository.Save();
             return Json(files.Files.Count);
         }
     }

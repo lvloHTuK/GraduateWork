@@ -1,6 +1,13 @@
-var builder = WebApplication.CreateBuilder(args);
+using CheckAnalysis.Data;
+using CheckAnalysis.Data.Repositories;
+using Microsoft.EntityFrameworkCore;
 
+var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
+builder.Services.AddDbContext<CheckDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("MvcCheckContext")));
+builder.Services.AddScoped<CheckDataRepository>();
+
 
 builder.Services.AddControllersWithViews();
 
