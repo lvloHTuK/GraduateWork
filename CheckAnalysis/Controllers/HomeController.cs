@@ -64,8 +64,8 @@ namespace CheckAnalysis.Controllers
                     }
                 }
             }
-            _checkDataRepository.Save();
-            return Json(files.Files.Count);
+            await _checkDataRepository.Save();
+            return View("Index");
         }
     }
 }

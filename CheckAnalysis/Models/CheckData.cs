@@ -1,29 +1,26 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.Data.SqlClient;
+using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations;
 
 namespace CheckAnalysis.Models
 {
     public class CheckData
     {
         [Key]
-        public string? _id { get; set; }
-        public DateTimeOffset createdAt { get; set; }
-        public string? buyerPhoneOrAddress { get; set; }
+        public Guid Id { get; set; }
+        public string? CheckId { get; set; }
+        public DateTime createdAt { get; set; }
+        public string? buyerPhoneOrAdress { get; set; }
         public int cashTotalSum { get; set; }
         public int creditSum { get; set; }
-        public DateTimeOffset dateTime { get; set; }
+        public DateTime dateTime { get; set; }
         public int ecashTotalSum { get; set; }
         public int fiscalDocumentFormatVer { get; set; }
         public int fiscalDocumentNumber { get; set; }
         public string? fiscalDriveNumber { get; set; }
-        public ulong fiscalSign { get; set; }
+        //public ulong fiscalSign { get; set; }
         public string? fnsUrl { get; set; }
-        public string? name { get; set; }
-        public int nds { get; set; }
-        public int ndsSum { get; set; }
-        public int paymentType { get; set; }
-        public int price { get; set; }
-        public float quantity { get; set; }
-        public int sum { get; set; }
+        
         public string? kttRegId { get; set; }
         public string? machineNumber { get; set; }
         public int nds18 { get; set; }
@@ -50,17 +47,18 @@ namespace CheckAnalysis.Models
         }
         public CheckData(CheckFile checkFile)
         {
-            _id = checkFile._id;
-            createdAt = checkFile.createdAt;
-            buyerPhoneOrAddress = checkFile.ticket.document.receipt.buyerPhoneOrAddress;
+            Id = new Guid();
+            CheckId = checkFile._id;
+            createdAt = checkFile.createdAt.DateTime;
+            buyerPhoneOrAdress = checkFile.ticket.document.receipt.buyerPhoneOrAddress;
             cashTotalSum = checkFile.ticket.document.receipt.cashTotalSum;
             creditSum = checkFile.ticket.document.receipt.creditSum;
-            dateTime = checkFile.ticket.document.receipt.dateTime;
+            dateTime = checkFile.ticket.document.receipt.dateTime.DateTime;
             ecashTotalSum = checkFile.ticket.document.receipt.ecashTotalSum;
             fiscalDocumentFormatVer = checkFile.ticket.document.receipt.fiscalDocumentFormatVer;
             fiscalDocumentNumber = checkFile.ticket.document.receipt.fiscalDocumentNumber;
             fiscalDriveNumber = checkFile.ticket.document.receipt.fiscalDriveNumber;
-            fiscalSign = checkFile.ticket.document.receipt.fiscalSign;
+            //fiscalSign = checkFile.ticket.document.receipt.fiscalSign;
             fnsUrl = checkFile.ticket.document.receipt.fnsUrl;
 
             kttRegId = checkFile.ticket.document.receipt.kttRegId;
@@ -77,20 +75,9 @@ namespace CheckAnalysis.Models
             shiftNumber = checkFile.ticket.document.receipt.shiftNumber;
             taxationType = checkFile.ticket.document.receipt.taxationType;
             appliedTaxationType = checkFile.ticket.document.receipt.appliedTaxationType;
-            totalSum = checkFile.ticket.document.receipt.totalSum;
+            totalSum = checkFile.ticket.document.receipt.totalSum / 100;
             user = checkFile.ticket.document.receipt.user;
             userInn = checkFile.ticket.document.receipt.userInn;
-        }
-
-        public void AddItem(Items item)
-        {
-            name = item.name;
-            nds = item.nds;
-            ndsSum = item.ndsSum;
-            paymentType = item.paymentType;
-            price = item.price;
-            quantity = item.quantity;
-            sum = item.sum;
         }
     }
 }

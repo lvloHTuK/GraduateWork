@@ -1,4 +1,7 @@
 ﻿using CheckAnalysis.Models;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.Data.SqlClient;
+using Microsoft.EntityFrameworkCore;
 
 namespace CheckAnalysis.Data.Repositories
 {
@@ -11,14 +14,26 @@ namespace CheckAnalysis.Data.Repositories
             db = context;
         }
 
+        public async Task<IEnumerable<ItemData>> GetAll()
+        {
+            var checks = await db.ItemData.ToListAsync();
+
+            if (checks != null)
+            {
+                return checks;
+            }
+
+            return null;
+        }
 
         public async Task Add(CheckFile check)
         {
             CheckData checkData = new CheckData(check);
-            foreach(var item in check.ticket.document.receipt.items)
+            await db.CheckData.AddAsync(checkData);
+            foreach (var item in check.ticket.document.receipt.items)
             {
-                checkData.AddItem(item);
-                await db.CheckData.AddAsync(checkData);
+                ItemData items = new ItemData(item, checkData.CheckId);
+                await db.ItemData.AddAsync(items);
             }
         }
 

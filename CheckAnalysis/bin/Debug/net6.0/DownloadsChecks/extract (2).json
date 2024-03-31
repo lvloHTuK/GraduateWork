@@ -4459,4 +4459,13 @@
 			}
 		}
 	},
-]
+	{
+		"_id": "65337eef37fde76f10971cd3",
+		"createdAt": "2023-10-21T07:34:07+00:00",
+		"ticket": {
+			"document": {
+				"receipt": {
+					"cashTotalSum": 0,
+					"code": 3,
+					"creditSum": 0,
+					"dateTim
