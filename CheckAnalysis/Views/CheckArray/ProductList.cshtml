@@ -1,14 +1,8 @@
 ﻿@*
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
-@page
-@model CheckAnalysis.Data.Repositories.CheckDataRepository;
-
 @{
-
 }
-
-<h1>Index</h1>
 
 
 <table class="table">
@@ -30,7 +24,7 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (var item in ViewBag.Checks)
+        @foreach (var item in ViewBag.Items)
         {
             <tr>
                 <td>
@@ -46,12 +40,9 @@
                     @item.sum
                 </td>
                 <td>
-
                 </td>
             </tr>
         }
     </tbody>
 </table>
-
-
 

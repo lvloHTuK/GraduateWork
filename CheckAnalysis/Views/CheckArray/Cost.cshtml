@@ -1,0 +1,25 @@
+﻿@model CheckAnalysis.Models.DateData;
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<h1>Общие затраты</h1>
+<h2>@ViewBag.AllCost</h2>
+<h2>Средний чек</h2>
+<h1>@ViewBag.AvgCheck</h1>
+
+@foreach (var item in ViewBag.Cost)
+{
+    <div>
+        <h3>@item.Name</h3>
+        <h2>@item.Value</h2>
+        <form method="post" asp-controller="CheckArray" asp-action="MonthInfo">
+            <input class="input" type="hidden" value="@item.Name" asp-for="Name" />
+            <input class="input" type="hidden" value="@item.FirstDate" asp-for="FirstDate" />
+            <input class="input" type="hidden" value="@item.LastDate" asp-for="LastDate" />
+            <input class="button" type="submit" value="Больше информации" />
+        </form>
+    </div>
+}

@@ -1,0 +1,3755 @@
+[
+	{
+		"_id": "65aa7a5f5c9abadd0dd0dde1",
+		"createdAt": "2024-01-19T13:34:23+00:00",
+		"ticket": {
+			"document": {
+				"receipt": {
+					"buyerPhoneOrAddress": "SIBMAG2645@GMAIL.COM",
+					"cashTotalSum": 0,
+					"code": 3,
+					"creditSum": 0,
+					"dateTime": "2024-01-13T21:09:00",
+					"ecashTotalSum": 34600,
+					"fiscalDocumentFormatVer": 4,
+					"fiscalDocumentNumber": 96668,
+					"fiscalDriveNumber": "7281440701352613",
+					"fiscalSign": 3267241191,
+					"internetSign": 1,
+					"items": [
+						{
+							"name": "Книга История на Миллион Долларов, Мастер-Класс для Сценаристов, писателей И Не Только",
+							"nds": 6,
+							"paymentAgentByProductType": 64,
+							"paymentType": 1,
+							"price": 34600,
+							"productType": 1,
+							"providerInn": "7703529136  ",
+							"quantity": 1,
+							"sum": 34600
+						},
+						{
+							"name": "Услуга доставки",
+							"nds": 3,
+							"paymentType": 1,
+							"price": 0,
+							"productType": 4,
+							"quantity": 1,
+							"sum": 0
+						}
+					],
+					"kktRegId": "0006000533000176    ",
+					"machineNumber": "KZN071332",
+					"nds18118": 0,
+					"ndsNo": 34600,
+					"operationType": 1,
+					"prepaidSum": 0,
+					"provisionSum": 0,
+					"requestNumber": 1598,
+					"retailPlace": "Интернет",
+					"retailPlaceAddress": "109316, Москва, Волгоградский проспект, 42, к 9",
+					"sellerAddress": "service@megamarket.ru",
+					"shiftNumber": 48,
+					"taxationType": 1,
+					"appliedTaxationType": 1,
+					"totalSum": 34600,
+					"user": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ \"МАРКЕТПЛЕЙС\"",
+					"userInn": "9701048328  "
+				}
+			}
+		}
+	},
+	{
+		"_id": "65b2a97cae17240837f9df2a",
+		"createdAt": "2024-01-25T18:33:32+00:00",
+		"ticket": {
+			"document": {
+				"receipt": {
+					"cashTotalSum": 0,
+					"code": 3,
+					"creditSum": 0,
+					"dateTime": "2024-01-15T18:08:00",
+					"ecashTotalSum": 89985,
+					"fiscalDocumentFormatVer": 4,
+					"fiscalDocumentNumber": 85050,
+					"fiscalDriveNumber": "7282440500031660",
+					"fiscalSign": 2873359517,
+					"fnsUrl": "www.nalog.gov.ru",
+					"items": [
+						{
+							"name": "6 СОТОК Кукуруза сладкая в/с 340г ж/б:12",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 7999,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 2,
+							"sum": 15998
+						},
+						{
+							"name": "Пакет-майка Магнит",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 899,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 899
+						},
+						{
+							"name": "AQUA MINERALE Питьевая вода газ 1л пл/бу",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 5499,
+							"productType": 33,
+							"productCodeData": {
+								"gtin": 4600494601323,
+								"rawProductCode": "0104600494601323215jC(qXx.EOa_'",
+								"productIdType": 6,
+								"sernum": "5jC(qXx.EOa_'"
+							},
+							"quantity": 1,
+							"sum": 5499
+						},
+						{
+							"name": "ОЧЕНЬ ВАЖНАЯ КОРОВА Творог 5% 200г фл/п(",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 7599,
+							"productType": 33,
+							"productCodeData": {
+								"gtin": 4604087004317,
+								"rawProductCode": "0104604087004317215kFjUd",
+								"productIdType": 6,
+								"sernum": "5kFjUd"
+							},
+							"quantity": 1,
+							"sum": 7599
+						},
+						{
+							"name": "МОЯ ЦЕНА Сгущенка с сах прод мол 270г д/",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 3999,
+							"productType": 33,
+							"productCodeData": {
+								"gtin": 4603274005519,
+								"rawProductCode": "0104603274005519215dDOmL",
+								"productIdType": 6,
+								"sernum": "5dDOmL"
+							},
+							"quantity": 1,
+							"sum": 3999
+						},
+						{
+							"name": "Яйцо столовое С1 10шт бокс :20",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 11869,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 11869
+						},
+						{
+							"name": "МАХЕЕВЪ Кетчуп Лечо 300г д/п(Эссен Продакшн):",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 7999,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 7999
+						},
+						{
+							"name": "БЕЛОЧКА Семена подсолнечника жаренные140г фл/",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 9299,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 9299
+						},
+						{
+							"name": "БАНАНЫ 1кг",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 11599,
+							"productType": 1,
+							"quantity": 1.304,
+							"sum": 15125
+						},
+						{
+							"name": "ЧАЙКОФСКИЙ Сахар-песок рафинирован ГОСТ22 900",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 11699,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 11699
+						}
+					],
+					"kktRegId": "0006256869000508    ",
+					"nds10": 4043,
+					"nds18": 7587,
+					"operationType": 1,
+					"operator": "Продавец Макарова",
+					"prepaidSum": 0,
+					"provisionSum": 0,
+					"requestNumber": 39,
+					"retailPlace": "Магазин  Магнит  Карловка",
+					"retailPlaceAddress": "420101, Татарстан Респ, Казань г, Академика Парина ул, дом № 16,,помещ. 1Н",
+					"shiftNumber": 304,
+					"taxationType": 1,
+					"appliedTaxationType": 1,
+					"totalSum": 89985,
+					"user": "АКЦИОНЕРНОЕ ОБЩЕСТВО \"ТАНДЕР\"",
+					"userInn": "2310031475  "
+				}
+			}
+		}
+	},
+	{
+		"_id": "65aa7a5f5c9abadd0dd0dde0",
+		"createdAt": "2024-01-19T13:34:23+00:00",
+		"ticket": {
+			"document": {
+				"receipt": {
+					"buyerPhoneOrAddress": "SIBMAG2645@GMAIL.COM",
+					"cashTotalSum": 0,
+					"code": 3,
+					"creditSum": 0,
+					"dateTime": "2024-01-19T16:00:00",
+					"ecashTotalSum": 0,
+					"fiscalDocumentFormatVer": 4,
+					"fiscalDocumentNumber": 149451,
+					"fiscalDriveNumber": "7281440500778306",
+					"fiscalSign": 1703111628,
+					"internetSign": 1,
+					"items": [
+						{
+							"name": "Книга История на Миллион Долларов, Мастер-Класс для Сценаристов, писателей И Не Только",
+							"nds": 6,
+							"paymentAgentByProductType": 64,
+							"paymentType": 4,
+							"price": 34600,
+							"productType": 1,
+							"providerInn": "7703529136  ",
+							"quantity": 1,
+							"sum": 34600
+						},
+						{
+							"name": "Услуга доставки",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 0,
+							"productType": 4,
+							"quantity": 1,
+							"sum": 0
+						}
+					],
+					"kktRegId": "0007642720014129    ",
+					"machineNumber": "KZN036727",
+					"nds18": 0,
+					"ndsNo": 34600,
+					"operationType": 1,
+					"prepaidSum": 34600,
+					"provisionSum": 0,
+					"requestNumber": 815,
+					"retailPlace": "Интернет",
+					"retailPlaceAddress": "109316, Москва, Волгоградский проспект, 42, к 9",
+					"sellerAddress": "service@megamarket.ru",
+					"shiftNumber": 72,
+					"taxationType": 1,
+					"appliedTaxationType": 1,
+					"totalSum": 34600,
+					"user": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ \"МАРКЕТПЛЕЙС\"",
+					"userInn": "9701048328  "
+				}
+			}
+		}
+	},
+	{
+		"_id": "65aa7a5736f9b22a8f252dc2",
+		"createdAt": "2024-01-19T13:34:15+00:00",
+		"ticket": {
+			"document": {
+				"receipt": {
+					"cashTotalSum": 0,
+					"code": 3,
+					"creditSum": 0,
+					"dateTime": "2024-01-19T16:29:00",
+					"ecashTotalSum": 30695,
+					"fiscalDocumentFormatVer": 4,
+					"fiscalDocumentNumber": 50515,
+					"fiscalDriveNumber": "7282440500245353",
+					"fiscalSign": 3495139143,
+					"fnsUrl": "www.nalog.gov.ru",
+					"items": [
+						{
+							"name": "Вода СВЯТОЙ ИСТОЧНИК газ.  0.5л",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 3599,
+							"productType": 33,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 3599
+						},
+						{
+							"name": "B&GO Изд/к.с вишневой нач.150г",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 8999,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 8999
+						},
+						{
+							"name": "*ФР.Нап.ТРОП.МИКС с/сод.1.5л",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 9499,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 9499
+						},
+						{
+							"name": "ХРУСT.Сухар.в.рж.м.вк.См/Зел60г",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 4999,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 4999
+						},
+						{
+							"name": "Вода СВЯТОЙ ИСТОЧНИК б/г   0,5л",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 3599,
+							"productType": 33,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 3599
+						}
+					],
+					"kktRegId": "0005631037051846    ",
+					"machineNumber": "0644530006089932",
+					"nds10": 454,
+					"nds18": 4283,
+					"operationType": 1,
+					"prepaidSum": 0,
+					"properties": {
+						"propertyName": "X5",
+						"propertyValue": "33V2;POS72-BO-33V2;8bc431e877c24814abcb262a6eda6b74;920fbf072eb4cfcd533cafb9b525d680"
+					},
+					"provisionSum": 0,
+					"requestNumber": 141,
+					"retailPlace": "33V2 21612-Пятерочка",
+					"retailPlaceAddress": "420107,16, Республика Татарстан (Татарстан), г. Казань, Петербургская ул, 9",
+					"shiftNumber": 147,
+					"taxationType": 1,
+					"appliedTaxationType": 1,
+					"totalSum": 30695,
+					"user": "ООО \"АГРОТОРГ\"",
+					"userInn": "7825706086  "
+				}
+			}
+		}
+	},
+	{
+		"_id": "65ae7c35ae17240837f9157d",
+		"createdAt": "2024-01-22T14:31:17+00:00",
+		"ticket": {
+			"document": {
+				"receipt": {
+					"cashTotalSum": 0,
+					"code": 3,
+					"creditSum": 0,
+					"dateTime": "2024-01-22T17:03:00",
+					"ecashTotalSum": 82191,
+					"fiscalDocumentFormatVer": 4,
+					"fiscalDocumentNumber": 27542,
+					"fiscalDriveNumber": "7282440500160070",
+					"fiscalSign": 1929102215,
+					"fnsUrl": "www.nalog.gov.ru",
+					"items": [
+						{
+							"name": "*СТАР.Сосис.СОЧ.ПО-БАВ.вар.400г",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 22598,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 22598
+						},
+						{
+							"name": "Пакет ПЯТЕРОЧКА 65х40см",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 799,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 799
+						},
+						{
+							"name": "СМАР.Семена БЕЛ.подсол.жар.140г",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 9199,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 9199
+						},
+						{
+							"name": "GL.VIL.Кукуруза сахар.ж/б 425мл",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 8799,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 8799
+						},
+						{
+							"name": "*PAPIA Бумага туал.бел.3сл.4рул.",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 11999,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 11999
+						},
+						{
+							"name": "*SOKO GR.Сок апельс.мякот.0,75л",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 14999,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 14999
+						},
+						{
+							"name": "ХЛ.СТР.Хлеб ВИТЕБ.под.зав.350г",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 5999,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 5999
+						},
+						{
+							"name": "ОЧ.ВАЖ.КОР.Творог 5% 180г",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 7799,
+							"productType": 33,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 7799
+						}
+					],
+					"kktRegId": "0006540273033603    ",
+					"machineNumber": "0282840006113586",
+					"nds10": 5508,
+					"nds18": 3600,
+					"operationType": 1,
+					"prepaidSum": 0,
+					"properties": {
+						"propertyName": "X5",
+						"propertyValue": "5740;POS70-BO-5740;9db5700a334d4908ac9d90200425a421;7b25ca711095f68e562a8d7d8158e9c4"
+					},
+					"provisionSum": 0,
+					"requestNumber": 61,
+					"retailPlace": "5740 515-Пятерочка",
+					"retailPlaceAddress": "420138,16 - Республика Татарстан (Татарстан), г.о. город Казань, , г Казань,, пр-кт Победы, Дом 19",
+					"shiftNumber": 181,
+					"taxationType": 1,
+					"appliedTaxationType": 1,
+					"totalSum": 82191,
+					"user": "ООО Агроторг ",
+					"userInn": "7825706086  "
+				}
+			}
+		}
+	},
+	{
+		"_id": "65b2a565ae17240837f9dea3",
+		"createdAt": "2024-01-25T18:16:05+00:00",
+		"ticket": {
+			"document": {
+				"receipt": {
+					"cashTotalSum": 0,
+					"code": 3,
+					"creditSum": 0,
+					"dateTime": "2024-01-25T17:37:00",
+					"ecashTotalSum": 83743,
+					"fiscalDocumentFormatVer": 4,
+					"fiscalDocumentNumber": 63798,
+					"fiscalDriveNumber": "7282440500236459",
+					"fiscalSign": 1590728251,
+					"items": [
+						{
+							"name": "ШИШКИН ЛЕС Вода СПОРТнегаз 0.4л",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 4999,
+							"productType": 33,
+							"productCodeData": {
+								"gtin": 4605490000279,
+								"rawProductCode": "0104605490000279215;)%9kf'<;eM>",
+								"productIdType": 6,
+								"sernum": "5;)%9kf'<;eM>"
+							},
+							"quantity": 1,
+							"sum": 4999
+						},
+						{
+							"name": "Вода Св.ист.негаз.спорт   0,75л",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 5599,
+							"productType": 33,
+							"productCodeData": {
+								"gtin": 4607093920107,
+								"rawProductCode": "0104607093920107215<iELOO/1ln)o",
+								"productIdType": 6,
+								"sernum": "5<iELOO/1ln)o"
+							},
+							"quantity": 1,
+							"sum": 5599
+						},
+						{
+							"name": "Пакет ПЯТЕРОЧКА 65х40см",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 799,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 799
+						},
+						{
+							"name": "ЧУДО Йогурт фр.вк.клуб-зем.680г",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 12699,
+							"productType": 33,
+							"productCodeData": {
+								"gtin": 4690228107092,
+								"rawProductCode": "0104690228107092215TpI4X",
+								"productIdType": 6,
+								"sernum": "5TpI4X"
+							},
+							"quantity": 1,
+							"sum": 12699
+						},
+						{
+							"name": "ОЧ.ВАЖ.КОР.Творог 5% 400г",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 15999,
+							"productType": 33,
+							"productCodeData": {
+								"gtin": 4604087003242,
+								"rawProductCode": "0104604087003242215LZkVU",
+								"productIdType": 6,
+								"sernum": "5LZkVU"
+							},
+							"quantity": 1,
+							"sum": 15999
+						},
+						{
+							"name": "ЗЕРНИЦА Печенье овсяное кл.310г",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 9999,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 9999
+						},
+						{
+							"name": "АЗЕРЧАЙ Чай БУК.чер.байх.25х2г",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 6999,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 6999
+						},
+						{
+							"name": "Апельсины 1кг",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 16399,
+							"productType": 1,
+							"quantity": 0.555,
+							"sum": 9101
+						},
+						{
+							"name": "Бананы 1кг",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 14999,
+							"productType": 1,
+							"quantity": 1.17,
+							"sum": 17549
+						}
+					],
+					"kktRegId": "0000020350063822    ",
+					"nds10": 3435,
+					"nds18": 7658,
+					"operationType": 1,
+					"operator": "Андреева Татьяна Николаевна, Продавец-каccир",
+					"operatorInn": "164800196872",
+					"prepaidSum": 0,
+					"properties": {
+						"propertyName": "X5",
+						"propertyValue": "5740;POS01-BO-5740;d1a51c757d3e4c3ba819458d9276c47e;53568a3dd62c88e8120a3421ccf7af98"
+					},
+					"provisionSum": 0,
+					"requestNumber": 382,
+					"retailPlace": "5740 515 - Пятерочка",
+					"retailPlaceAddress": "420138,, 16 - Республика Татарстан (Татарстан), г.о. город Казань, г Казань,, пр-кт Победы, Дом 19, Помещение 1100",
+					"shiftNumber": 113,
+					"taxationType": 1,
+					"appliedTaxationType": 1,
+					"totalSum": 83743,
+					"user": "ООО Агроторг",
+					"userInn": "7825706086  "
+				}
+			}
+		}
+	},
+	{
+		"_id": "65b2c52536f9b22a8f2669a9",
+		"createdAt": "2024-01-25T20:31:33+00:00",
+		"ticket": {
+			"document": {
+				"receipt": {
+					"cashTotalSum": 0,
+					"code": 3,
+					"creditSum": 0,
+					"dateTime": "2024-01-25T22:23:00",
+					"ecashTotalSum": 71436,
+					"fiscalDocumentFormatVer": 4,
+					"fiscalDocumentNumber": 48293,
+					"fiscalDriveNumber": "7282440500131681",
+					"fiscalSign": 2040228172,
+					"fnsUrl": "www.nalog.gov.ru",
+					"items": [
+						{
+							"name": "LUCKY DAYS Йогурт пит клубника 1% 260г п",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 4299,
+							"productType": 33,
+							"productCodeData": {
+								"gtin": 4810268051760,
+								"rawProductCode": "0104810268051760212pRPkKEa",
+								"productIdType": 6,
+								"sernum": "2pRPkKEa"
+							},
+							"quantity": 1,
+							"sum": 4299
+						},
+						{
+							"name": "Пакет-майка Магнит",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 899,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 899
+						},
+						{
+							"name": "NESTEA Чай Черный Лесные Ягоды 0,5л пл/бут(Ро",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 4649,
+							"productType": 2,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 4649
+						},
+						{
+							"name": "ЖИВОЙ КЛЮЧ Вода питьев природн газ 0,5л ",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 2399,
+							"productType": 33,
+							"productCodeData": {
+								"gtin": 4604626000275,
+								"rawProductCode": "0104604626000275215IQ+kda8CLr,o",
+								"productIdType": 6,
+								"sernum": "5IQ+kda8CLr,o"
+							},
+							"quantity": 1,
+							"sum": 2399
+						},
+						{
+							"name": "ЧУДО Йогурт пит дыня манго персик 1,9% 2",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 5499,
+							"productType": 33,
+							"productCodeData": {
+								"gtin": 4690228106903,
+								"rawProductCode": "0104690228106903215_(9oo",
+								"productIdType": 6,
+								"sernum": "5_(9oo"
+							},
+							"quantity": 1,
+							"sum": 5499
+						},
+						{
+							"name": "ЧУДО Йогурт пит дыня манго персик 1,9% 2",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 5499,
+							"productType": 33,
+							"productCodeData": {
+								"gtin": 4690228106903,
+								"rawProductCode": "0104690228106903215tV.7W",
+								"productIdType": 6,
+								"sernum": "5tV.7W"
+							},
+							"quantity": 1,
+							"sum": 5499
+						},
+						{
+							"name": "ЯШКИНО Печенье со сливочным кремом 190г п/уп(",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 5999,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 5999
+						},
+						{
+							"name": "ALPEN GOLD Oreo Шоколад мол чизкейк/печенье 9",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 5999,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 5999
+						},
+						{
+							"name": "ЛЮБЯТОВО Печенье сдобн Домашнее с шокол156г( ",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 9999,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 9999
+						},
+						{
+							"name": "ХЛЕБНАЯ СТРАНА Сдоба Австрийская с творож нач",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 7599,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 7599
+						},
+						{
+							"name": "Тульский Пряник Сырцовый фрук/нач140г(ТФ Ясна",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 5299,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 5299
+						},
+						{
+							"name": "Слойка с начинкой черная смородина 80г п/уп(Б",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 3799,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 3799
+						},
+						{
+							"name": "ПРИНЦЕССА НУРИ Чай черн байх Магия Берг 25пак",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 6499,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 6499
+						},
+						{
+							"name": "Корж Молочный 0,075кг фл/п(БКК):16",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 2999,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 2999
+						}
+					],
+					"kktRegId": "0006398122048201    ",
+					"machineNumber": "13-60636045",
+					"nds10": 2427,
+					"nds18": 7458,
+					"operationType": 1,
+					"prepaidSum": 0,
+					"provisionSum": 0,
+					"requestNumber": 444,
+					"retailPlace": "Магазин  Магнит  Коимбра",
+					"retailPlaceAddress": "420111, Татарстан Респ, Казань г, Пушкина ул, дом № зд 13/52",
+					"shiftNumber": 203,
+					"taxationType": 1,
+					"appliedTaxationType": 1,
+					"totalSum": 71436,
+					"user": "АКЦИОНЕРНОЕ ОБЩЕСТВО \"ТАНДЕР\"",
+					"userInn": "2310031475  "
+				}
+			}
+		}
+	},
+	{
+		"_id": "65cb2aaa5c9abadd0debc47b",
+		"createdAt": "2024-02-13T08:39:06+00:00",
+		"ticket": {
+			"document": {
+				"receipt": {
+					"buyerPhoneOrAddress": "SIBMAG2645@GMAIL.COM",
+					"cashTotalSum": 0,
+					"code": 3,
+					"creditSum": 0,
+					"dateTime": "2024-02-10T17:04:00",
+					"ecashTotalSum": 35500,
+					"fiscalDocumentFormatVer": 4,
+					"fiscalDocumentNumber": 63284,
+					"fiscalDriveNumber": "7281440701290130",
+					"fiscalSign": 3339873465,
+					"internetSign": 1,
+					"items": [
+						{
+							"name": "Оплата услуг связи по л/с 107121336",
+							"nds": 1,
+							"ndsSum": 5917,
+							"paymentType": 4,
+							"price": 35500,
+							"productType": 4,
+							"quantity": 1,
+							"sum": 35500
+						}
+					],
+					"kktRegId": "0006630049042967    ",
+					"machineNumber": "22600508",
+					"nds18": 5917,
+					"operationType": 1,
+					"prepaidSum": 0,
+					"properties": {
+						"propertyName": "idExt ",
+						"propertyValue": "1681000024_140824330 "
+					},
+					"provisionSum": 0,
+					"requestNumber": 452,
+					"retailPlace": "Центр обработки данных",
+					"retailPlaceAddress": "107065, г.Москва, Курганская улица, дом 3",
+					"sellerAddress": "PAO-TATTELECOM@TATTELECOM.RU",
+					"shiftNumber": 46,
+					"taxationType": 1,
+					"appliedTaxationType": 1,
+					"totalSum": 35500,
+					"user": "ПАО \"ТАТТЕЛЕКОМ\"",
+					"userInn": "1681000024  "
+				}
+			}
+		}
+	},
+	{
+		"_id": "65cb2aaa5c9abadd0debc47a",
+		"createdAt": "2024-02-13T08:39:06+00:00",
+		"ticket": {
+			"document": {
+				"receipt": {
+					"buyerPhoneOrAddress": "sibmag2645@gmail.com",
+					"cashTotalSum": 0,
+					"code": 3,
+					"creditSum": 0,
+					"dateTime": "2024-02-11T16:08:00",
+					"ecashTotalSum": 102168,
+					"fiscalDocumentFormatVer": 4,
+					"fiscalDocumentNumber": 113120,
+					"fiscalDriveNumber": "9960440302562574",
+					"fiscalSign": 1202767735,
+					"fnsUrl": "www.nalog.gov.ru",
+					"items": [
+						{
+							"name": "ОЧЕНЬ ВАЖНАЯ КОРОВА Молоко 2,5% 0,93кг п",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 6799,
+							"productType": 33,
+							"productCodeData": {
+								"gtin": 4604087001439,
+								"rawProductCode": "0104604087001439215a='9=",
+								"productIdType": 6,
+								"sernum": "5a='9="
+							},
+							"quantity": 1,
+							"sum": 6799
+						},
+						{
+							"name": "КУБАНСКОЕ ЛЮБИМОЕ Масло Кукурузн раф/дез0,8л ",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 15999,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 15999
+						},
+						{
+							"name": "ОЧЕНЬ ВАЖНАЯ КОРОВА Творог 5% 200г фл/п(",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 7699,
+							"productType": 33,
+							"productCodeData": {
+								"gtin": 4604087004317,
+								"rawProductCode": "0104604087004317215<qDqw",
+								"productIdType": 6,
+								"sernum": "5<qDqw"
+							},
+							"quantity": 1,
+							"sum": 7699
+						},
+						{
+							"name": "Яйцо столовое С1 10шт бокс :20",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 11679,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 11679
+						},
+						{
+							"name": "MAKFA Макароны петуш. гребешки в/с 450г :10",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 7999,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 7999
+						},
+						{
+							"name": "НАЦИОНАЛЬ Рис для плова 1с 900г м/уп(Ангстрем",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 11299,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 11299
+						},
+						{
+							"name": "БЕЛОЧКА Семена подсолнечника жаренные140г фл/",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 9299,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 9299
+						},
+						{
+							"name": "МАГНИТ Кукуруза 340г ж/б(Россия):12",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 7499,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 7499
+						},
+						{
+							"name": "6 СОТОК Кукуруза сладкая в/с 340г ж/б:12",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 11999,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 11999
+						},
+						{
+							"name": "Морковь по-корейски 200г пл/бан:6",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 4999,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 4999
+						},
+						{
+							"name": "ТС2 Сахар-песок белый кристаллический фас 1кг",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 5999,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 5999
+						},
+						{
+							"name": "Пакет-майка Магнит",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 899,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 899
+						}
+					],
+					"kktRegId": "0007078448065428    ",
+					"nds10": 6978,
+					"nds18": 4233,
+					"operationType": 1,
+					"operator": "Директор магазина Мишагина",
+					"prepaidSum": 0,
+					"provisionSum": 0,
+					"requestNumber": 267,
+					"retailPlace": "Магазин  Магнит  Карловка",
+					"retailPlaceAddress": "420101, Татарстан Респ, Казань г, Академика Парина ул, дом № 16,,помещ. 1Н",
+					"sellerAddress": "ofd@magnit.ru",
+					"shiftNumber": 342,
+					"taxationType": 1,
+					"appliedTaxationType": 1,
+					"totalSum": 102168,
+					"user": "АКЦИОНЕРНОЕ ОБЩЕСТВО \"ТАНДЕР\"",
+					"userInn": "2310031475  "
+				}
+			}
+		}
+	},
+	{
+		"_id": "65cb2a55ae17240837fe05c3",
+		"createdAt": "2024-02-13T08:37:41+00:00",
+		"ticket": {
+			"document": {
+				"receipt": {
+					"cashTotalSum": 0,
+					"code": 3,
+					"creditSum": 0,
+					"dateTime": "2024-02-13T11:18:00",
+					"ecashTotalSum": 46100,
+					"fiscalDocumentFormatVer": 4,
+					"fiscalDocumentNumber": 115967,
+					"fiscalDriveNumber": "7281440500358599",
+					"fiscalSign": 2611927149,
+					"items": [
+						{
+							"name": "Чай в ассортименте 2 порц.",
+							"nds": 6,
+							"paymentType": 4,
+							"price": 3000,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 3000
+						},
+						{
+							"name": "Лимон шт 2 порц.",
+							"nds": 6,
+							"paymentType": 4,
+							"price": 1000,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 1000
+						},
+						{
+							"name": "Кур.груд с помидоркой.. 1 порц.",
+							"nds": 6,
+							"paymentType": 4,
+							"price": 9500,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 9500
+						},
+						{
+							"name": "Рис отварной 200 гр. 2 порц.",
+							"nds": 6,
+							"paymentType": 4,
+							"price": 5800,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 5800
+						},
+						{
+							"name": "Лобио из фасоли 200 гр. 1 порц.",
+							"nds": 6,
+							"paymentType": 4,
+							"price": 4800,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 4800
+						},
+						{
+							"name": "Капуста тушеная 200 гр. 1 порц.",
+							"nds": 6,
+							"paymentType": 4,
+							"price": 3700,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 3700
+						},
+						{
+							"name": "Котлета Кордон  Блю  1 порц.",
+							"nds": 6,
+							"paymentType": 4,
+							"price": 7900,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 7900
+						},
+						{
+							"name": "Хлеб шт 2 порц.",
+							"nds": 6,
+							"paymentType": 4,
+							"price": 400,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 400
+						},
+						{
+							"name": "Морковь по-корейски. 1 порц.",
+							"nds": 6,
+							"paymentType": 4,
+							"price": 3500,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 3500
+						},
+						{
+							"name": "Салат Цезарь. 1 порц.",
+							"nds": 6,
+							"paymentType": 4,
+							"price": 6500,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 6500
+						}
+					],
+					"kktRegId": "0002436278042466    ",
+					"ndsNo": 46100,
+					"operationType": 1,
+					"operator": "Абдрахманова А.Р.",
+					"prepaidSum": 0,
+					"provisionSum": 0,
+					"requestNumber": 54,
+					"retailPlace": "г Казань, ул Профсоюзная, 23",
+					"retailPlaceAddress": "г Казань, ул Профсоюзная, 23/12",
+					"shiftNumber": 310,
+					"taxationType": 32,
+					"appliedTaxationType": 32,
+					"totalSum": 46100,
+					"user": "СКОРИК ВИТАЛИЙ ВИТАЛЬЕВИЧ",
+					"userInn": "165506242188"
+				}
+			}
+		}
+	},
+	{
+		"_id": "65ccebef36f9b22a8f2b06e3",
+		"createdAt": "2024-02-14T16:35:59+00:00",
+		"ticket": {
+			"document": {
+				"receipt": {
+					"cashTotalSum": 0,
+					"code": 3,
+					"creditSum": 0,
+					"dateTime": "2024-02-13T14:18:00",
+					"ecashTotalSum": 28797,
+					"fiscalDocumentFormatVer": 4,
+					"fiscalDocumentNumber": 41989,
+					"fiscalDriveNumber": "7282440500160176",
+					"fiscalSign": 4288483989,
+					"fnsUrl": "www.nalog.gov.ru",
+					"items": [
+						{
+							"name": "Вода СВЯТОЙ ИСТОЧНИК б/г   1.5л",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 4999,
+							"productType": 33,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 4999
+						},
+						{
+							"name": "СЕРН.СЗ Мол.паст.3,2% ПЭТ 900мл",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 6799,
+							"productType": 33,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 6799
+						},
+						{
+							"name": "*ПАПА МОЖ.Сосис.СОЧНЫЕ п/о 600г",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 16999,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 16999
+						}
+					],
+					"kktRegId": "0006540280050365    ",
+					"machineNumber": "0022980006113494",
+					"nds10": 2163,
+					"nds18": 833,
+					"operationType": 1,
+					"prepaidSum": 0,
+					"properties": {
+						"propertyName": "X5",
+						"propertyValue": "5740;POS71-BO-5740;4fda8b94306b4c5495a5d7706d5a6b1c;3b8fc686498b4fa8707383b0cdc602ee"
+					},
+					"provisionSum": 0,
+					"requestNumber": 55,
+					"retailPlace": "5740 515-Пятерочка",
+					"retailPlaceAddress": "420138,, 16 - Республика Татарстан (Татарстан), г.о. город Казань, г Казань,, пр-кт Победы, Дом 19, Помещение 1100",
+					"shiftNumber": 204,
+					"taxationType": 1,
+					"appliedTaxationType": 1,
+					"totalSum": 28797,
+					"user": "ООО Агроторг",
+					"userInn": "7825706086  "
+				}
+			}
+		}
+	},
+	{
+		"_id": "65ccf25036f9b22a8f2b07c7",
+		"createdAt": "2024-02-14T17:03:12+00:00",
+		"ticket": {
+			"document": {
+				"receipt": {
+					"cashTotalSum": 0,
+					"code": 3,
+					"creditSum": 0,
+					"dateTime": "2024-02-13T18:43:00",
+					"ecashTotalSum": 17998,
+					"fiscalDocumentFormatVer": 4,
+					"fiscalDocumentNumber": 103551,
+					"fiscalDriveNumber": "9960440302558653",
+					"fiscalSign": 572984538,
+					"fnsUrl": "www.nalog.gov.ru",
+					"items": [
+						{
+							"name": "MILKA Шоколад с цельным фундуком 85г фл/п(Мон",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 8999,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 8999
+						},
+						{
+							"name": "MILKA Шокол молоч с цельн минд 85г(Монделис Р",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 8999,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 8999
+						}
+					],
+					"kktRegId": "0007078488063609    ",
+					"nds18": 3000,
+					"operationType": 1,
+					"operator": "Товаровед магазина Ибадуллаева",
+					"prepaidSum": 0,
+					"provisionSum": 0,
+					"requestNumber": 286,
+					"retailPlace": "Магазин  Магнит  Сверкающий",
+					"retailPlaceAddress": "420138, Татарстан Респ, Казань г, Победы пр-кт, дом № 17",
+					"shiftNumber": 343,
+					"taxationType": 1,
+					"appliedTaxationType": 1,
+					"totalSum": 17998,
+					"user": "АКЦИОНЕРНОЕ ОБЩЕСТВО \"ТАНДЕР\"",
+					"userInn": "2310031475  "
+				}
+			}
+		}
+	},
+	{
+		"_id": "65d3600cba091652867be202",
+		"createdAt": "2024-02-19T14:05:00+00:00",
+		"ticket": {
+			"document": {
+				"receipt": {
+					"cashTotalSum": 0,
+					"code": 3,
+					"creditSum": 0,
+					"dateTime": "2024-02-16T14:51:00",
+					"ecashTotalSum": 74172,
+					"fiscalDocumentFormatVer": 4,
+					"fiscalDocumentNumber": 75845,
+					"fiscalDriveNumber": "7282440500236459",
+					"fiscalSign": 2269738143,
+					"items": [
+						{
+							"name": "Пакет ПЯТЕРОЧКА 65х40см",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 799,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 799
+						},
+						{
+							"name": "*ПАПА МОЖ.Сосис.СОЧНЫЕ п/о 600г",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 16999,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 16999
+						},
+						{
+							"name": "*GL.VIL.Кукуруза сахар.ж/б 425мл",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 6590,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 2,
+							"sum": 13180
+						},
+						{
+							"name": "*МАХ.Кетчуп ТОМАТНЫЙ 1кат 300г",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 8499,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 8499
+						},
+						{
+							"name": "БКК Хлеб НОВ.под.пш/рж.нар.300г",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 2999,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 2999
+						},
+						{
+							"name": "СМАР.Семена БЕЛ.подсол.жар.140г",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 10299,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 10299
+						},
+						{
+							"name": "БЗМЖ ОЧ.ВАЖ.КОР.Творог 5% 200г",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 7999,
+							"productType": 33,
+							"productCodeData": {
+								"gtin": 4604087003235,
+								"rawProductCode": "0104604087003235215oVMBg",
+								"productIdType": 6,
+								"sernum": "5oVMBg"
+							},
+							"quantity": 1,
+							"sum": 7999
+						},
+						{
+							"name": "СЕРН.СЗ Мол.пит.паст.2,5% 0,9л",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 6399,
+							"productType": 33,
+							"productCodeData": {
+								"gtin": 4607074063724,
+								"rawProductCode": "0104607074063724215K)InV",
+								"productIdType": 6,
+								"sernum": "5K)InV"
+							},
+							"quantity": 1,
+							"sum": 6399
+						},
+						{
+							"name": "СЕРН.СЗ Мол.паст.3,2% ПЭТ 900мл",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 6999,
+							"productType": 33,
+							"productCodeData": {
+								"gtin": 4607074063717,
+								"rawProductCode": "0104607074063717215JM8lh",
+								"productIdType": 6,
+								"sernum": "5JM8lh"
+							},
+							"quantity": 1,
+							"sum": 6999
+						}
+					],
+					"kktRegId": "0000020350063822    ",
+					"nds10": 4699,
+					"nds18": 3747,
+					"operationType": 1,
+					"operator": "Cиницына Лилия Шаукатовна, Продавец-каccир",
+					"operatorInn": "165915423883",
+					"prepaidSum": 0,
+					"properties": {
+						"propertyName": "X5",
+						"propertyValue": "5740;POS01-BO-5740;9be840012ddf40c5a6402aa674b18749;ef87fd00cae73147d0f5ed932593390f"
+					},
+					"provisionSum": 0,
+					"requestNumber": 204,
+					"retailPlace": "5740 515 - Пятерочка",
+					"retailPlaceAddress": "420138,, 16 - Республика Татарстан (Татарстан), г.о. город Казань, г Казань,, пр-кт Победы, Дом 19, Помещение 1100",
+					"shiftNumber": 135,
+					"taxationType": 1,
+					"appliedTaxationType": 1,
+					"totalSum": 74172,
+					"user": "ООО Агроторг",
+					"userInn": "7825706086  "
+				}
+			}
+		}
+	},
+	{
+		"_id": "65d3cc6e01f1fb96e3cebdf4",
+		"createdAt": "2024-02-19T21:47:26+00:00",
+		"ticket": {
+			"document": {
+				"receipt": {
+					"buyerPhoneOrAddress": "+79196481273",
+					"cashTotalSum": 0,
+					"code": 3,
+					"creditSum": 0,
+					"dateTime": "2024-02-18T15:30:00",
+					"ecashTotalSum": 5000,
+					"fiscalDocumentFormatVer": 2,
+					"fiscalDocumentNumber": 184615,
+					"fiscalDriveNumber": "7284440500020441",
+					"fiscalSign": 3549010910,
+					"fnsUrl": "www.nalog.gov.ru",
+					"items": [
+						{
+							"name": "Услуги связи",
+							"nds": 1,
+							"paymentType": 3,
+							"price": 5000,
+							"productType": 4,
+							"quantity": 1,
+							"sum": 5000
+						}
+					],
+					"kktRegId": "0002790060038295    ",
+					"machineNumber": "1",
+					"nds18": 833,
+					"operationType": 1,
+					"prepaidSum": 0,
+					"properties": {
+						"propertyName": "Номер операции",
+						"propertyValue": "ЕСПП:1854497946401"
+					},
+					"provisionSum": 0,
+					"requestNumber": 129,
+					"retailPlace": "http://www.mts.ru;https://payment.mts.ru",
+					"sellerAddress": "noreply@ofd.ru",
+					"shiftNumber": 84,
+					"taxationType": 1,
+					"appliedTaxationType": 1,
+					"totalSum": 5000,
+					"user": "ПУБЛИЧНОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО \"МОБИЛЬНЫЕ ТЕЛЕСИСТЕМЫ\"",
+					"userInn": "7740000076  "
+				}
+			}
+		}
+	},
+	{
+		"_id": "65d35ffa36f9b22a8f2c0dc5",
+		"createdAt": "2024-02-19T14:04:42+00:00",
+		"ticket": {
+			"document": {
+				"receipt": {
+					"buyerPhoneOrAddress": "sibmag2645@gmail.com",
+					"cashTotalSum": 0,
+					"code": 3,
+					"creditSum": 0,
+					"dateTime": "2024-02-19T16:17:00",
+					"ecashTotalSum": 76684,
+					"fiscalDocumentFormatVer": 4,
+					"fiscalDocumentNumber": 96351,
+					"fiscalDriveNumber": "7282440500031660",
+					"fiscalSign": 993904758,
+					"fnsUrl": "www.nalog.gov.ru",
+					"items": [
+						{
+							"name": "ТС2 Сахар-песок белый кристаллический фас 1кг",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 5999,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 5999
+						},
+						{
+							"name": "Пакет-майка Магнит",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 899,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 899
+						},
+						{
+							"name": "AQUA MINERALE Питьевая вода негаз 1л пл/",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 5499,
+							"productType": 33,
+							"productCodeData": {
+								"gtin": 4600494601309,
+								"rawProductCode": "0104600494601309215uP,CoJAllTsZ",
+								"productIdType": 6,
+								"sernum": "5uP,CoJAllTsZ"
+							},
+							"quantity": 1,
+							"sum": 5499
+						},
+						{
+							"name": "ОЧЕНЬ ВАЖНАЯ КОРОВА Молоко топленое 4% 0",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 7999,
+							"productType": 33,
+							"productCodeData": {
+								"gtin": 4604087001545,
+								"rawProductCode": "0104604087001545215iCRDJ",
+								"productIdType": 6,
+								"sernum": "5iCRDJ"
+							},
+							"quantity": 1,
+							"sum": 7999
+						},
+						{
+							"name": "ОЧЕНЬ ВАЖНАЯ КОРОВА Творог рассыпчатый5%",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 8599,
+							"productType": 33,
+							"productCodeData": {
+								"gtin": 4604087003235,
+								"rawProductCode": "01046040870032352153pj3x",
+								"productIdType": 6,
+								"sernum": "53pj3x"
+							},
+							"quantity": 1,
+							"sum": 8599
+						},
+						{
+							"name": "ALPEN GOLD шоколад молоч фундук и изюм 80г/85",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 5499,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 5499
+						},
+						{
+							"name": "УВЕЛКА Рис круглозер Краснодарский 800г п/уп(",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 11999,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 11999
+						},
+						{
+							"name": "БЕЛОЧКА Семечки жареные соленые 140г (Волков ",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 7799,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 7799
+						},
+						{
+							"name": "БАНАНЫ 1кг",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 12999,
+							"productType": 1,
+							"quantity": 1.338,
+							"sum": 17393
+						},
+						{
+							"name": "МАГНИТ Мыло хозяйственное 72% 200г (НМЖК):30",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 4999,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 4999
+						}
+					],
+					"kktRegId": "0006256869000508    ",
+					"nds10": 3854,
+					"nds18": 5716,
+					"operationType": 1,
+					"operator": "Продавец Мякинина",
+					"prepaidSum": 0,
+					"provisionSum": 0,
+					"requestNumber": 177,
+					"retailPlace": "Магазин  Магнит  Карловка",
+					"retailPlaceAddress": "420101, Татарстан Респ, Казань г, Академика Парина ул, дом № 16,,помещ. 1Н",
+					"sellerAddress": "ofd@magnit.ru",
+					"shiftNumber": 339,
+					"taxationType": 1,
+					"appliedTaxationType": 1,
+					"totalSum": 76684,
+					"user": "АКЦИОНЕРНОЕ ОБЩЕСТВО \"ТАНДЕР\"",
+					"userInn": "2310031475  "
+				}
+			}
+		}
+	},
+	{
+		"_id": "65d723ad36f9b22a8f2cd18c",
+		"createdAt": "2024-02-22T10:36:29+00:00",
+		"ticket": {
+			"document": {
+				"receipt": {
+					"cashTotalSum": 0,
+					"code": 3,
+					"creditSum": 0,
+					"dateTime": "2024-02-21T15:04:00",
+					"ecashTotalSum": 80191,
+					"fiscalDocumentFormatVer": 4,
+					"fiscalDocumentNumber": 96908,
+					"fiscalDriveNumber": "7282440500031660",
+					"fiscalSign": 1935732316,
+					"fnsUrl": "www.nalog.gov.ru",
+					"items": [
+						{
+							"name": "ТС2 Сахар-песок белый кристаллический фас 1кг",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 5999,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 5999
+						},
+						{
+							"name": "САНТА БРЕМОР Матиас Сельдь филе делик ориг 40",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 26999,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 26999
+						},
+						{
+							"name": "ОЧЕНЬ ВАЖНАЯ КОРОВА Молоко 2,5% 0,93кг п",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 6799,
+							"productType": 33,
+							"productCodeData": {
+								"gtin": 4604087001439,
+								"rawProductCode": "0104604087001439215oQNnN",
+								"productIdType": 6,
+								"sernum": "5oQNnN"
+							},
+							"quantity": 1,
+							"sum": 6799
+						},
+						{
+							"name": "Молоко пастер 3,2% 0,9л пл/бут(Сернурски",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 6999,
+							"productType": 33,
+							"productCodeData": {
+								"gtin": 4607074063717,
+								"rawProductCode": "0104607074063717215gBr2A",
+								"productIdType": 6,
+								"sernum": "5gBr2A"
+							},
+							"quantity": 1,
+							"sum": 6999
+						},
+						{
+							"name": "АТЯШЕВО Колбаски Охотские п/к 400г МГС(Атяшев",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 9999,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 9999
+						},
+						{
+							"name": "БЕЛОЧКА Семена подсолнечника жаренные140г фл/",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 7499,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 7499
+						},
+						{
+							"name": "МАГНИТ Кукуруза 340г ж/б(Россия):12",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 7499,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 2,
+							"sum": 14998
+						},
+						{
+							"name": "Пакет-майка Магнит",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 899,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 899
+						}
+					],
+					"kktRegId": "0006256869000508    ",
+					"nds10": 5844,
+					"nds18": 2650,
+					"operationType": 1,
+					"operator": "Директор магазина Мишагина",
+					"prepaidSum": 0,
+					"provisionSum": 0,
+					"requestNumber": 117,
+					"retailPlace": "Магазин  Магнит  Карловка",
+					"retailPlaceAddress": "420101, Татарстан Респ, Казань г, Академика Парина ул, дом № 16,,помещ. 1Н",
+					"shiftNumber": 341,
+					"taxationType": 1,
+					"appliedTaxationType": 1,
+					"totalSum": 80191,
+					"user": "АКЦИОНЕРНОЕ ОБЩЕСТВО \"ТАНДЕР\"",
+					"userInn": "2310031475  "
+				}
+			}
+		}
+	},
+	{
+		"_id": "65dc5851ae1724083700c6d9",
+		"createdAt": "2024-02-26T09:22:25+00:00",
+		"ticket": {
+			"document": {
+				"receipt": {
+					"cashTotalSum": 0,
+					"code": 3,
+					"creditSum": 0,
+					"dateTime": "2024-02-26T12:00:00",
+					"ecashTotalSum": 185557,
+					"fiscalDocumentFormatVer": 4,
+					"fiscalDocumentNumber": 120057,
+					"fiscalDriveNumber": "7282440500163489",
+					"fiscalSign": 2660943015,
+					"items": [
+						{
+							"name": "Пакет ПЯТЕРОЧКА 65х40см",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 799,
+							"productType": 1,
+							"quantity": 2,
+							"sum": 1598
+						},
+						{
+							"name": "Яблоко красное фас.1кг",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 11999,
+							"productType": 1,
+							"quantity": 1.102,
+							"sum": 13223
+						},
+						{
+							"name": "G.DI PASTA Макар.ФАРФАЛ.400г",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 5999,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 5999
+						},
+						{
+							"name": "ТЕНД.Крупа ГРЕЧНЕВ.ядрица 900г",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 4199,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 4199
+						},
+						{
+							"name": "СЕРН.СЗ Мол.паст.3,2% ПЭТ 900мл",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 6999,
+							"productType": 33,
+							"productCodeData": {
+								"gtin": 4607074063717,
+								"rawProductCode": "0104607074063717215FMj?c",
+								"productIdType": 6,
+								"sernum": "5FMj?c"
+							},
+							"quantity": 1,
+							"sum": 6999
+						},
+						{
+							"name": "Д.ДЫМ.Сосис.СЛИВОЧНЫЕ вар.300г",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 9999,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 9999
+						},
+						{
+							"name": "*Б.ЧАШ.Цикор.раст.экст.черн.85г",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 5999,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 5999
+						},
+						{
+							"name": "АЛЕКС.Молоко сгущ.цел.8,5%270г",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 10999,
+							"productType": 33,
+							"productCodeData": {
+								"gtin": 4607109470992,
+								"rawProductCode": "0104607109470992215ED3xB",
+								"productIdType": 6,
+								"sernum": "5ED3xB"
+							},
+							"quantity": 1,
+							"sum": 10999
+						},
+						{
+							"name": "*СТ.МОЛ.Творог 5% 330г",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 10799,
+							"productType": 33,
+							"productCodeData": {
+								"gtin": 4670007360917,
+								"rawProductCode": "0104670007360917215u*Fwm",
+								"productIdType": 6,
+								"sernum": "5u*Fwm"
+							},
+							"quantity": 1,
+							"sum": 10799
+						},
+						{
+							"name": "*KIDNESS Какао-напиток р.в.500г",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 14999,
+							"productType": 1,
+							"quantity": 2,
+							"sum": 29998
+						},
+						{
+							"name": "*ХВАТАЙ-КА Печ.овсян.клас.400г",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 6999,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 6999
+						},
+						{
+							"name": "*СЕЛЯН.Рис шлиф.длин.900г",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 9699,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 9699
+						},
+						{
+							"name": "*Мандарины                   1кг",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 11999,
+							"productType": 1,
+							"quantity": 0.746,
+							"sum": 8951
+						},
+						{
+							"name": "Яйцо СЕЛЯНОЧКА кур.С1 10шт",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 13599,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 13599
+						},
+						{
+							"name": "ТЕНД.Сахар-песок/Сахар бел.1кг",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 5999,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 5999
+						},
+						{
+							"name": "*LIEBENDORF Сыр ТИЛЬЗИТ.фас.1кг",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 59999,
+							"productType": 33,
+							"productCodeData": {
+								"gtin": 4606038070402,
+								"rawProductCode": "0104606038070402215=bDsR",
+								"productIdType": 6,
+								"sernum": "5=bDsR"
+							},
+							"quantity": 0.275,
+							"sum": 16500
+						},
+						{
+							"name": "Пирог трехслойный 500г",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 18999,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 18999
+						},
+						{
+							"name": "Хлеб Деревенский 290г",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 4999,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 4999
+						}
+					],
+					"kktRegId": "0000020601051550    ",
+					"nds10": 12814,
+					"nds18": 7433,
+					"operationType": 1,
+					"operator": "Морозова Галина Владимировна, Продавец-каccир",
+					"operatorInn": "211400018983",
+					"prepaidSum": 0,
+					"properties": {
+						"propertyName": "X5",
+						"propertyValue": "5321;POS03-BO-5321;738d673573644216a9a6f87865fd07f7;5173e5118b2bbfc8b5e8f3a8cec3a30e"
+					},
+					"provisionSum": 0,
+					"requestNumber": 87,
+					"retailPlace": "5321, 519-Пятерочка",
+					"retailPlaceAddress": "420101, 16 - Республика Татарстан (Татарстан), город Казань г.о., г. Казань, Хусаина Мавлютова ул, 29, помещ 2Н",
+					"shiftNumber": 337,
+					"taxationType": 1,
+					"appliedTaxationType": 1,
+					"totalSum": 185557,
+					"user": "Агроторг ООО",
+					"userInn": "7825706086  "
+				}
+			}
+		}
+	},
+	{
+		"_id": "65e0530fba091652867e3e54",
+		"createdAt": "2024-02-29T09:49:03+00:00",
+		"ticket": {
+			"document": {
+				"receipt": {
+					"cashTotalSum": 0,
+					"code": 3,
+					"creditSum": 0,
+					"dateTime": "2024-02-28T15:37:00",
+					"ecashTotalSum": 81369,
+					"fiscalDocumentFormatVer": 4,
+					"fiscalDocumentNumber": 135294,
+					"fiscalDriveNumber": "9960440302649232",
+					"fiscalSign": 3138962862,
+					"fnsUrl": "www.nalog.gov.ru",
+					"items": [
+						{
+							"name": "DELIKAISER Сосиски Сливочн ГОСТ 0,32кг МСГ(МП",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 8999,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 8999
+						},
+						{
+							"name": "Пакет-майка Магнит",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 899,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 899
+						},
+						{
+							"name": "Морковь по-корейски 400г пл/бан:6",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 8999,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 8999
+						},
+						{
+							"name": "Молоко пастер 3,2% 0,9л пл/бут(Сернурски",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 6999,
+							"productType": 33,
+							"productCodeData": {
+								"gtin": 4607074063717,
+								"rawProductCode": "0104607074063717215JXCGN",
+								"productIdType": 6,
+								"sernum": "5JXCGN"
+							},
+							"quantity": 1,
+							"sum": 6999
+						},
+						{
+							"name": "ОЧЕНЬ ВАЖНАЯ КОРОВА Ряженка 2,5% 430г пл",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 4299,
+							"productType": 33,
+							"productCodeData": {
+								"gtin": 4604087003563,
+								"rawProductCode": "0104604087003563215dQBol",
+								"productIdType": 6,
+								"sernum": "5dQBol"
+							},
+							"quantity": 1,
+							"sum": 4299
+						},
+						{
+							"name": "HEINZ Кетчуп томатный 800г пл/бут (Петропроду",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 19999,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 19999
+						},
+						{
+							"name": "Хлеб Пшеничный подовый нарез 500г п/уп(Ухуд)",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 5699,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 5699
+						},
+						{
+							"name": "ФРУАТЕ Йогурт манго/маракуйя 1,5% 250г л",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 3699,
+							"productType": 33,
+							"productCodeData": {
+								"gtin": 4601751023131,
+								"rawProductCode": "0104601751023131215JWNda",
+								"productIdType": 6,
+								"sernum": "5JWNda"
+							},
+							"quantity": 1,
+							"sum": 3699
+						},
+						{
+							"name": "Молоко пастер 3,2% 0,9л пл/бут(Сернурски",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 6999,
+							"productType": 33,
+							"productCodeData": {
+								"gtin": 4607074063717,
+								"rawProductCode": "0104607074063717215orIiL",
+								"productIdType": 6,
+								"sernum": "5orIiL"
+							},
+							"quantity": 1,
+							"sum": 6999
+						},
+						{
+							"name": "СВЯТОЙ ИСТОЧНИК Пит вода н/газ 1л пл/бут",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 4299,
+							"productType": 33,
+							"productCodeData": {
+								"gtin": 4603934000250,
+								"rawProductCode": "0104603934000250215;<uKQs'BtNSv",
+								"productIdType": 6,
+								"sernum": "5;<uKQs'BtNSv"
+							},
+							"quantity": 1,
+							"sum": 4299
+						},
+						{
+							"name": "МАГНИТ Кукуруза 340г ж/б(Россия):12",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 7499,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 7499
+						},
+						{
+							"name": "DIROL Жев рез со вкусом кокоса и клубники 13,",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 2980,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 2",
+							"quantity": 1,
+							"sum": 2980
+						}
+					],
+					"kktRegId": "0007078485007318    ",
+					"nds10": 3335,
+					"nds18": 7447,
+					"operationType": 1,
+					"operator": "Товаровед магазина Лебедкова",
+					"prepaidSum": 0,
+					"provisionSum": 0,
+					"requestNumber": 232,
+					"retailPlace": "Магазин  Магнит  Карловка",
+					"retailPlaceAddress": "420101, Татарстан Респ, Казань г, Академика Парина ул, дом № 16,,помещ. 1Н",
+					"shiftNumber": 362,
+					"taxationType": 1,
+					"appliedTaxationType": 1,
+					"totalSum": 81369,
+					"user": "АКЦИОНЕРНОЕ ОБЩЕСТВО \"ТАНДЕР\"",
+					"userInn": "2310031475  "
+				}
+			}
+		}
+	},
+	{
+		"_id": "65eca81a01f1fb96e3e473ed",
+		"createdAt": "2024-03-09T18:19:06+00:00",
+		"ticket": {
+			"document": {
+				"receipt": {
+					"buyerPhoneOrAddress": "sibmag2645@gmail.com",
+					"cashTotalSum": 0,
+					"code": 3,
+					"creditSum": 0,
+					"dateTime": "2024-03-02T08:42:00",
+					"ecashTotalSum": 37500,
+					"fiscalDocumentFormatVer": 2,
+					"fiscalDocumentNumber": 21864,
+					"fiscalDriveNumber": "7280440700300338",
+					"fiscalSign": 3540294314,
+					"fnsUrl": "www.nalog.gov.ru",
+					"items": [
+						{
+							"name": " ",
+							"nds": 3,
+							"paymentType": 3,
+							"price": 37500,
+							"productType": 10,
+							"quantity": 1,
+							"sum": 37500
+						}
+					],
+					"kktRegId": "0007758304043476    ",
+					"machineNumber": "3010001",
+					"nds18118": 6250,
+					"operationType": 1,
+					"prepaidSum": 0,
+					"provisionSum": 0,
+					"requestNumber": 315,
+					"retailPlace": "https://www.sutochno.ru;https://www.sutochno.com",
+					"retailPlaceAddress": "127410, Москва г, Алтуфьевское ш, дом № 33Г",
+					"shiftNumber": 65,
+					"taxationType": 1,
+					"appliedTaxationType": 1,
+					"totalSum": 37500,
+					"user": "Общество с ограниченной ответственностью \"СУТОЧНО\"",
+					"userInn": "7709908155  "
+				}
+			}
+		}
+	},
+	{
+		"_id": "65e3aedc5c9abadd0d00ae2d",
+		"createdAt": "2024-03-02T22:57:32+00:00",
+		"ticket": {
+			"document": {
+				"receipt": {
+					"buyerPhoneOrAddress": "+79196481273",
+					"cashTotalSum": 0,
+					"code": 3,
+					"creditSum": 0,
+					"dateTime": "2024-03-02T08:47:00",
+					"ecashTotalSum": 5000,
+					"fiscalDocumentFormatVer": 2,
+					"fiscalDocumentNumber": 169828,
+					"fiscalDriveNumber": "7284440500018601",
+					"fiscalSign": 875522020,
+					"fnsUrl": "www.nalog.gov.ru",
+					"items": [
+						{
+							"name": "Услуги связи",
+							"nds": 1,
+							"paymentType": 3,
+							"price": 5000,
+							"productType": 4,
+							"quantity": 1,
+							"sum": 5000
+						}
+					],
+					"kktRegId": "0002801792038593    ",
+					"machineNumber": "3",
+					"nds18": 833,
+					"operationType": 1,
+					"prepaidSum": 0,
+					"properties": {
+						"propertyName": "Номер операции",
+						"propertyValue": "ЕСПП:1857690385301"
+					},
+					"provisionSum": 0,
+					"requestNumber": 1495,
+					"retailPlace": "http://www.mts.ru;https://payment.mts.ru",
+					"sellerAddress": "noreply@ofd.ru",
+					"shiftNumber": 73,
+					"taxationType": 1,
+					"appliedTaxationType": 1,
+					"totalSum": 5000,
+					"user": "ПУБЛИЧНОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО \"МОБИЛЬНЫЕ ТЕЛЕСИСТЕМЫ\"",
+					"userInn": "7740000076  "
+				}
+			}
+		}
+	},
+	{
+		"_id": "65e37101ae17240837026214",
+		"createdAt": "2024-03-02T18:33:37+00:00",
+		"ticket": {
+			"document": {
+				"receipt": {
+					"cashTotalSum": 0,
+					"code": 3,
+					"creditSum": 0,
+					"dateTime": "2024-03-02T20:43:00",
+					"ecashTotalSum": 346664,
+					"fiscalDocumentFormatVer": 4,
+					"fiscalDocumentNumber": 45380,
+					"fiscalDriveNumber": "7282440500233731",
+					"fiscalSign": 1495334237,
+					"fnsUrl": "www.nalog.gov.ru",
+					"items": [
+						{
+							"name": "Пакет ПЯТЕРОЧКА 65х40см",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 799,
+							"productType": 1,
+							"quantity": 2,
+							"sum": 1598
+						},
+						{
+							"name": "*ОЧ.ВАЖ.КОР.Творог 9% 180г",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 6999,
+							"productType": 33,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 6999
+						},
+						{
+							"name": "HOCHL.Сыр пл.ломт.ЧИЗБ.45%150г",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 9999,
+							"productType": 33,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 9999
+						},
+						{
+							"name": "*FISH HOUSE Горбуша натур.  245г",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 9999,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 9999
+						},
+						{
+							"name": "*Сосиски ЯДРЕНА КОП.класс.420г",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 13999,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 13999
+						},
+						{
+							"name": "Хлеб ЧИАБАТТА ржаная 220г",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 4799,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 4799
+						},
+						{
+							"name": "SPLAT З/п PROF.АКТИВ 80г",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 9999,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 9999
+						},
+						{
+							"name": "Томаты ФЛАМЕНКО сливов.кр.450г",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 17999,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 17999
+						},
+						{
+							"name": "ОЧ.ВАЖ.КОР.Мол.паст.2,5% 930г",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 6999,
+							"productType": 33,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 6999
+						},
+						{
+							"name": "*ЕССЕН.Вода №4 мин.газ.0,45л",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 7299,
+							"productType": 33,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 7299
+						},
+						{
+							"name": "Бананы 1кг",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 15499,
+							"productType": 1,
+							"quantity": 0.915,
+							"sum": 14182
+						},
+						{
+							"name": "GIL.Пена SENSIT.SKIN д/бр 200мл",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 31999,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 31999
+						},
+						{
+							"name": "СЛОД.Печенье ШАХМ.СЛОД.сах.100г",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 2299,
+							"productType": 1,
+							"quantity": 2,
+							"sum": 4598
+						},
+						{
+							"name": "*ОЧ.ВАЖ.КОР.Творог 5% 400г",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 12729,
+							"productType": 33,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 12729
+						},
+						{
+							"name": "*M.V.Батончик кок.стр.гл.с к.40г",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 1899,
+							"productType": 1,
+							"quantity": 4,
+							"sum": 7596
+						},
+						{
+							"name": "*ФРУАТЕ Йог.с перс/груш.1,5%250г",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 2799,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 2799
+						},
+						{
+							"name": "ЛИСМА Чай НАСЫЩЕН.чер.25х1,8г",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 5299,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 5299
+						},
+						{
+							"name": "*ALP.GOLD Шоколад молоч.фунд.85г",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 5499,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 5499
+						},
+						{
+							"name": "ALP.GOLD Шок.ОР.м.н.вк.в/п.90г",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 5199,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 5199
+						},
+						{
+							"name": "РОС-Щ.Д.Шок.ШОК.ПУЗ.мол.пор.75г",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 5999,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 5999
+						},
+						{
+							"name": "*ALP.GOLD Шоколад молочный 85г",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 5499,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 5499
+						},
+						{
+							"name": "HON.KID Мыло ДЕТ.туал.эк.ром90г",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 3299,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 3299
+						},
+						{
+							"name": "*ВК.КОНС.Шпроты в масле ключ160г",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 9999,
+							"productType": 1,
+							"quantity": 2,
+							"sum": 19998
+						},
+						{
+							"name": "РЕСТ.Шницель свиной охл.400г",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 22399,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 22399
+						},
+						{
+							"name": "*ЧУДО Йогурт вк.ГР.КАР.ПЛОМ.260г",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 5799,
+							"productType": 33,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 5799
+						},
+						{
+							"name": "J7 Сок апельсиновый с мяк.0,85л",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 17999,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 17999
+						},
+						{
+							"name": "Мандарины фасованн.1кг",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 11999,
+							"productType": 1,
+							"quantity": 1.24,
+							"sum": 14879
+						},
+						{
+							"name": "Яблоки РОЯЛ ГАЛА фас.1кг",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 15679,
+							"productType": 1,
+							"quantity": 1.225,
+							"sum": 19207
+						},
+						{
+							"name": "Вода СВЯТОЙ ИСТОЧНИК б/г   1.5л",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 4999,
+							"productType": 33,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 4999
+						},
+						{
+							"name": "Дск Огурцы короткоплодные 450г",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 17999,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 17999
+						},
+						{
+							"name": "GIL.Бритва  BLUE II PLUSд/б 5шт",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 28999,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 28999
+						}
+					],
+					"kktRegId": "0006859732065386    ",
+					"nds10": 18600,
+					"nds18": 23677,
+					"operationType": 1,
+					"operator": "Гаева Марина Николаевна, Продавец-каccир",
+					"operatorInn": "165914660955",
+					"prepaidSum": 0,
+					"properties": {
+						"propertyName": "X5",
+						"propertyValue": "L586;POS04-BO-L586;77e826a19a6d4c73b6af3d763014e132;e658514c5ba00a51a682534ee362c15f"
+					},
+					"provisionSum": 0,
+					"requestNumber": 535,
+					"retailPlace": "L586 6336-Пятерочка",
+					"retailPlaceAddress": "420138, 16 - Республика Татарстан (Татарстан), г.о. город Казань, г Казань,, ул Юлиуса Фучика, Дом 14в, Помещение 2678",
+					"shiftNumber": 90,
+					"taxationType": 1,
+					"appliedTaxationType": 1,
+					"totalSum": 346664,
+					"user": "Агроторг ООО",
+					"userInn": "7825706086  "
+				}
+			}
+		}
+	},
+	{
+		"_id": "65e9fa26ae1724083703bb6e",
+		"createdAt": "2024-03-07T17:32:22+00:00",
+		"ticket": {
+			"document": {
+				"receipt": {
+					"cashTotalSum": 0,
+					"code": 3,
+					"creditSum": 0,
+					"dateTime": "2024-03-07T13:01:00",
+					"ecashTotalSum": 149949,
+					"fiscalDocumentFormatVer": 4,
+					"fiscalDocumentNumber": 193048,
+					"fiscalDriveNumber": "7282440500183409",
+					"fiscalSign": 3374934143,
+					"items": [
+						{
+							"name": "СЕРН.СЗ Мол.паст.3,2% ПЭТ 900мл",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 6999,
+							"productType": 33,
+							"productCodeData": {
+								"gtin": 4607074063717,
+								"rawProductCode": "0104607074063717215sXW&M",
+								"productIdType": 6,
+								"sernum": "5sXW&M"
+							},
+							"quantity": 1,
+							"sum": 6999
+						},
+						{
+							"name": "СЕРН.СЗ Мол.паст.3,2% ПЭТ 900мл",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 6999,
+							"productType": 33,
+							"productCodeData": {
+								"gtin": 4607074063717,
+								"rawProductCode": "0104607074063717215Fne):",
+								"productIdType": 6,
+								"sernum": "5Fne):"
+							},
+							"quantity": 1,
+							"sum": 6999
+						},
+						{
+							"name": "*Батончик BOUNTY ТРИО     82,5г",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 5499,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 5499
+						},
+						{
+							"name": "Пакет ПЯТЕРОЧКА 65х40см",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 799,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 799
+						},
+						{
+							"name": "ТЕНД.Сахар-песок/Сахар бел.1кг",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 5999,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 5999
+						},
+						{
+							"name": "DEL.Сосиски СЛИВОЧ.вар.320г",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 8999,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 8999
+						},
+						{
+							"name": "*MOL.Мюсли зап.с орехом 300г",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 7499,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 2,
+							"sum": 14998
+						},
+						{
+							"name": "МИСТ.Гречка ядрица 900г",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 10999,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 10999
+						},
+						{
+							"name": "ДЫМ.Изд.х/б ДОМ.ВАФ.ор.сд.235г",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 7999,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 7999
+						},
+						{
+							"name": "СТ.МОЛ.Творог 5% 330г",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 12095,
+							"productType": 33,
+							"productCodeData": {
+								"gtin": 4670007360917,
+								"rawProductCode": "0104670007360917215(i0kO",
+								"productIdType": 6,
+								"sernum": "5(i0kO"
+							},
+							"quantity": 1,
+							"sum": 12095
+						},
+						{
+							"name": "Бананы 1кг",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 15499,
+							"productType": 1,
+							"quantity": 1.14,
+							"sum": 17669
+						},
+						{
+							"name": "Хлеб Деревенский 290г",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 4999,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 4999
+						},
+						{
+							"name": "*GL.VIL.S.Кукуруза сладкая 340г",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 8199,
+							"productType": 1,
+							"quantity": 2,
+							"sum": 16398
+						},
+						{
+							"name": "*MAKFA Макароны ВИТОК    450г",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 5499,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 5499
+						},
+						{
+							"name": "АЛЕКС.Молоко сгущ.цел.8,5%650г",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 23999,
+							"productType": 33,
+							"productCodeData": {
+								"gtin": 4607109470237,
+								"rawProductCode": "0104607109470237215ATsP3",
+								"productIdType": 6,
+								"sernum": "5ATsP3"
+							},
+							"quantity": 1,
+							"sum": 23999
+						}
+					],
+					"kktRegId": "0000020598062865    ",
+					"nds10": 9961,
+					"nds18": 6728,
+					"operationType": 1,
+					"operator": "Каримова Эльвира Раифовна, Продавец-каccир",
+					"prepaidSum": 0,
+					"properties": {
+						"propertyName": "X5",
+						"propertyValue": "5321;POS01-BO-5321;7cf9c24446e345af92d69d8aa516b875;37b9276b4f549d09632ca72eadaf2528"
+					},
+					"provisionSum": 0,
+					"requestNumber": 286,
+					"retailPlace": "5321, 519-Пятерочка",
+					"retailPlaceAddress": "420101, 16 - Республика Татарстан (Татарстан), г.о. город Казань, г Казань,, ул Хусаина Мавлютова, Дом 29, Помещение 2Н,",
+					"shiftNumber": 310,
+					"taxationType": 1,
+					"appliedTaxationType": 1,
+					"totalSum": 149949,
+					"user": "Агроторг ООО",
+					"userInn": "7825706086  "
+				}
+			}
+		}
+	},
+	{
+		"_id": "65f520a85c9abadd0d0fbc43",
+		"createdAt": "2024-03-16T04:31:36+00:00",
+		"ticket": {
+			"document": {
+				"receipt": {
+					"buyerPhoneOrAddress": "SIBMAG2645@GMAIL.COM",
+					"cashTotalSum": 0,
+					"code": 3,
+					"creditSum": 0,
+					"dateTime": "2024-03-11T22:28:00",
+					"ecashTotalSum": 35600,
+					"fiscalDocumentFormatVer": 4,
+					"fiscalDocumentNumber": 121255,
+					"fiscalDriveNumber": "7281440701290712",
+					"fiscalSign": 1615704010,
+					"internetSign": 1,
+					"items": [
+						{
+							"name": "Оплата услуг связи по л/с 107121336",
+							"nds": 1,
+							"ndsSum": 5933,
+							"paymentType": 4,
+							"price": 35600,
+							"productType": 4,
+							"quantity": 1,
+							"sum": 35600
+						}
+					],
+					"kktRegId": "0006625705012985    ",
+					"machineNumber": "22600502",
+					"nds18": 5933,
+					"operationType": 1,
+					"prepaidSum": 0,
+					"properties": {
+						"propertyName": "idExt ",
+						"propertyValue": "1681000024_144865337 "
+					},
+					"provisionSum": 0,
+					"requestNumber": 281,
+					"retailPlace": "Центр обработки данных",
+					"retailPlaceAddress": "107065, г.Москва, Курганская улица, дом 3",
+					"sellerAddress": "PAO-TATTELECOM@TATTELECOM.RU",
+					"shiftNumber": 83,
+					"taxationType": 1,
+					"appliedTaxationType": 1,
+					"totalSum": 35600,
+					"user": "ПАО \"ТАТТЕЛЕКОМ\"",
+					"userInn": "1681000024  "
+				}
+			}
+		}
+	},
+	{
+		"_id": "65f2b9fc36f9b22a8f31c1ad",
+		"createdAt": "2024-03-14T08:49:00+00:00",
+		"ticket": {
+			"document": {
+				"receipt": {
+					"cashTotalSum": 0,
+					"code": 3,
+					"creditSum": 0,
+					"dateTime": "2024-03-13T13:18:00",
+					"ecashTotalSum": 95480,
+					"fiscalDocumentFormatVer": 4,
+					"fiscalDocumentNumber": 91078,
+					"fiscalDriveNumber": "7282440500236459",
+					"fiscalSign": 3083844030,
+					"items": [
+						{
+							"name": "Пакет ПЯТЕРОЧКА 65х40см",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 799,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 799
+						},
+						{
+							"name": "TOLLI CL.Бумага туал.бел.4р.2сл",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 8299,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 8299
+						},
+						{
+							"name": "*СМАР.Семена БЕЛ.подсол.жар.250г",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 13999,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 13999
+						},
+						{
+							"name": "*GL.VIL.S.Кукуруза сладкая 340г",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 8999,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 8999
+						},
+						{
+							"name": "Вода СВЯТОЙ ИСТОЧНИК б/г   1.5л",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 4799,
+							"productType": 33,
+							"productCodeData": {
+								"gtin": 4603934000779,
+								"rawProductCode": "0104603934000779215ffQaJ(bL6R;x",
+								"productIdType": 6,
+								"sernum": "5ffQaJ(bL6R;x"
+							},
+							"quantity": 1,
+							"sum": 4799
+						},
+						{
+							"name": "СЕРН.СЗ Мол.пит.паст.2,5% 0,9л",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 6499,
+							"productType": 33,
+							"productCodeData": {
+								"gtin": 4607074063724,
+								"rawProductCode": "0104607074063724215YIkr8",
+								"productIdType": 6,
+								"sernum": "5YIkr8"
+							},
+							"quantity": 1,
+							"sum": 6499
+						},
+						{
+							"name": "*ВЛ.СТ.Сосис.БАВАР.С СЫРОМ 420г",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 13999,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 13999
+						},
+						{
+							"name": "Бананы 1кг",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 16499,
+							"productType": 1,
+							"quantity": 1.46,
+							"sum": 24089
+						},
+						{
+							"name": "ОЧ.ВАЖ.КОР.Творог 5% 180г",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 7999,
+							"productType": 33,
+							"productCodeData": {
+								"gtin": 4604087004034,
+								"rawProductCode": "0104604087004034215kp&EN",
+								"productIdType": 6,
+								"sernum": "5kp&EN"
+							},
+							"quantity": 1,
+							"sum": 7999
+						},
+						{
+							"name": "ТЕНД.Сахар-песок/Сахар бел.1кг",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 5999,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 5999
+						}
+					],
+					"kktRegId": "0000020350063822    ",
+					"nds10": 4409,
+					"nds18": 7831,
+					"operationType": 1,
+					"operator": "Андреева Татьяна Николаевна, Продавец-каccир",
+					"operatorInn": "164800196872",
+					"prepaidSum": 0,
+					"properties": {
+						"propertyName": "X5",
+						"propertyValue": "5740;POS01-BO-5740;7f3c0741ccea4b38b4c8854c514e6780;9d079e687329a8484d58ad1634739743"
+					},
+					"provisionSum": 0,
+					"requestNumber": 184,
+					"retailPlace": "5740 515 - Пятерочка",
+					"retailPlaceAddress": "420138,, 16 - Республика Татарстан (Татарстан), г.о. город Казань, г Казань,, пр-кт Победы, Дом 19, Помещение 1100",
+					"shiftNumber": 161,
+					"taxationType": 1,
+					"appliedTaxationType": 1,
+					"totalSum": 95480,
+					"user": "ООО Агроторг",
+					"userInn": "7825706086  "
+				}
+			}
+		}
+	},
+	{
+		"_id": "65ff05035c9abadd0d188f07",
+		"createdAt": "2024-03-23T16:36:19+00:00",
+		"ticket": {
+			"document": {
+				"receipt": {
+					"buyerPhoneOrAddress": "sibmag2645@gmail.com",
+					"cashTotalSum": 0,
+					"code": 3,
+					"creditSum": 0,
+					"dateTime": "2024-03-17T12:41:00",
+					"ecashTotalSum": 88598,
+					"fiscalDocumentFormatVer": 4,
+					"fiscalDocumentNumber": 2087,
+					"fiscalDriveNumber": "7284440700541050",
+					"fiscalSign": 1476601758,
+					"fnsUrl": "www.nalog.gov.ru",
+					"items": [
+						{
+							"name": "BONA AQUA Питьевая вода негаз 1л ПЭТ(Мул",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 5399,
+							"productType": 33,
+							"productCodeData": {
+								"gtin": 4610011500053,
+								"rawProductCode": "0104610011500053215lY!p3Nj=R0Fi",
+								"productIdType": 6,
+								"sernum": "5lY!p3Nj=R0Fi"
+							},
+							"quantity": 1,
+							"sum": 5399
+						},
+						{
+							"name": "MAKFA Макароны улитки в/с 450г (Макфа):10",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 6999,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 6999
+						},
+						{
+							"name": "ХЛЕБНАЯ СТРАНА Хлебец Паве нарез 400г п/уп(БК",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 4999,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 4999
+						},
+						{
+							"name": "ОЧЕНЬ ВАЖНАЯ КОРОВА Молоко 2,5% 0,93кг п",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 6999,
+							"productType": 33,
+							"productCodeData": {
+								"gtin": 4604087001439,
+								"rawProductCode": "0104604087001439215<rvze",
+								"productIdType": 6,
+								"sernum": "5<rvze"
+							},
+							"quantity": 1,
+							"sum": 6999
+						},
+						{
+							"name": "УВЕЛКА Рис круглозер Краснодарский 800г п/уп(",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 10299,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 10299
+						},
+						{
+							"name": "ОЧЕНЬ ВАЖНАЯ КОРОВА Молоко 2,5% 0,93кг п",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 6999,
+							"productType": 33,
+							"productCodeData": {
+								"gtin": 4604087001439,
+								"rawProductCode": "0104604087001439215KEZLM",
+								"productIdType": 6,
+								"sernum": "5KEZLM"
+							},
+							"quantity": 1,
+							"sum": 6999
+						},
+						{
+							"name": "ТС2 Сахар-песок белый кристаллический фас 1кг",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 5999,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 5999
+						},
+						{
+							"name": "БАНАНЫ 1кг",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 14999,
+							"productType": 1,
+							"quantity": 1.334,
+							"sum": 20009
+						},
+						{
+							"name": "Морковь по-корейски 200г пл/бан:6",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 4999,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 4999
+						},
+						{
+							"name": "МАГНИТ Кукуруза 340г ж/б(Россия):12",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 7499,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 2,
+							"sum": 14998
+						},
+						{
+							"name": "Пакет-майка Магнит",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 899,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 899
+						},
+						{
+							"name": "Наклейка-патч в саше Стикерс-2",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 0,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 0
+						}
+					],
+					"kktRegId": "0007087354010707    ",
+					"nds10": 3843,
+					"nds18": 7718,
+					"operationType": 1,
+					"operator": "Товаровед магазина Галимов",
+					"prepaidSum": 0,
+					"provisionSum": 0,
+					"requestNumber": 47,
+					"retailPlace": "Магазин  Магнит  Карловка",
+					"retailPlaceAddress": "420101, Татарстан Респ, Казань г, Академика Парина ул, дом № 16, помещение 1Н",
+					"sellerAddress": "info@ofd-magnit.ru",
+					"shiftNumber": 7,
+					"taxationType": 1,
+					"appliedTaxationType": 1,
+					"totalSum": 88598,
+					"user": "АКЦИОНЕРНОЕ ОБЩЕСТВО \"ТАНДЕР\"",
+					"userInn": "2310031475  "
+				}
+			}
+		}
+	},
+	{
+		"_id": "65ff05035c9abadd0d188f06",
+		"createdAt": "2024-03-23T16:36:19+00:00",
+		"ticket": {
+			"document": {
+				"receipt": {
+					"buyerPhoneOrAddress": "79196481273",
+					"cashTotalSum": 0,
+					"code": 3,
+					"creditSum": 0,
+					"dateTime": "2024-03-22T06:15:00",
+					"ecashTotalSum": 0,
+					"fiscalDocumentFormatVer": 2,
+					"fiscalDocumentNumber": 156327,
+					"fiscalDriveNumber": "7380440700315717",
+					"fiscalSign": 3811814133,
+					"fnsUrl": "www.nalog.gov.ru",
+					"items": [
+						{
+							"name": "Бронь №21699467. Использование ИС Суточно.ру ОКПД2 58.29.50.000",
+							"nds": 3,
+							"paymentType": 4,
+							"price": 66000,
+							"productType": 9,
+							"quantity": 1,
+							"sum": 66000
+						}
+					],
+					"kktRegId": "0007863166063069    ",
+					"machineNumber": "3010001",
+					"nds18118": 11000,
+					"operationType": 1,
+					"prepaidSum": 66000,
+					"provisionSum": 0,
+					"requestNumber": 219,
+					"retailPlace": "https://www.sutochno.ru;https://www.sutochno.com",
+					"retailPlaceAddress": "127410, Москва г, Алтуфьевское ш, дом № 33Г",
+					"shiftNumber": 30,
+					"taxationType": 1,
+					"appliedTaxationType": 1,
+					"totalSum": 66000,
+					"user": "Общество с ограниченной ответственностью \"СУТОЧНО\"",
+					"userInn": "7709908155  "
+				}
+			}
+		}
+	},
+	{
+		"_id": "65ff05035c9abadd0d188f05",
+		"createdAt": "2024-03-23T16:36:19+00:00",
+		"ticket": {
+			"document": {
+				"receipt": {
+					"buyerPhoneOrAddress": "sibmag2645@gmail.com",
+					"cashTotalSum": 0,
+					"code": 3,
+					"creditSum": 0,
+					"dateTime": "2024-03-22T18:00:00",
+					"ecashTotalSum": 52681,
+					"fiscalDocumentFormatVer": 4,
+					"fiscalDocumentNumber": 4146,
+					"fiscalDriveNumber": "7284440700541050",
+					"fiscalSign": 2932530228,
+					"fnsUrl": "www.nalog.gov.ru",
+					"items": [
+						{
+							"name": "БАНАНЫ 1кг",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 13999,
+							"productType": 1,
+							"quantity": 0.942,
+							"sum": 13187
+						},
+						{
+							"name": "Пакет-майка Магнит",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 899,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 899
+						},
+						{
+							"name": "ОЧЕНЬ ВАЖНАЯ КОРОВА Молоко 2,5% 0,93кг п",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 6999,
+							"productType": 33,
+							"productCodeData": {
+								"gtin": 4604087001439,
+								"rawProductCode": "0104604087001439215WK)m,",
+								"productIdType": 6,
+								"sernum": "5WK)m,"
+							},
+							"quantity": 1,
+							"sum": 6999
+						},
+						{
+							"name": "СВЯТОЙ ИСТОЧНИК Питьев вода негаз 1,5л п",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 5299,
+							"productType": 33,
+							"productCodeData": {
+								"gtin": 4603934000779,
+								"rawProductCode": "0104603934000779215CfS'OlQna?GE",
+								"productIdType": 6,
+								"sernum": "5CfS'OlQna?GE"
+							},
+							"quantity": 1,
+							"sum": 5299
+						},
+						{
+							"name": "ОЧЕНЬ ВАЖНАЯ КОРОВА Творог 5% 400г ст/бэ",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 13999,
+							"productType": 33,
+							"productCodeData": {
+								"gtin": 4604087003242,
+								"rawProductCode": "01046040870032422151:lG7",
+								"productIdType": 6,
+								"sernum": "51:lG7"
+							},
+							"quantity": 1,
+							"sum": 13999
+						},
+						{
+							"name": "УВЕЛКА Гречка ядрица Экстра 800г(Ресурс):6",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 7299,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 7299
+						},
+						{
+							"name": "Морковь по-корейски 200г пл/бан:6",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 4999,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 4999
+						},
+						{
+							"name": "Наклейка-патч в саше Стикерс-2",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 0,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 0
+						}
+					],
+					"kktRegId": "0007087354010707    ",
+					"nds10": 2573,
+					"nds18": 4064,
+					"operationType": 1,
+					"operator": "Товаровед магазина Галимов",
+					"prepaidSum": 0,
+					"provisionSum": 0,
+					"requestNumber": 116,
+					"retailPlace": "Магазин  Магнит  Карловка",
+					"retailPlaceAddress": "420101, Татарстан Респ, Казань г, Академика Парина ул, дом № 16, помещение 1Н",
+					"sellerAddress": "info@ofd-magnit.ru",
+					"shiftNumber": 12,
+					"taxationType": 1,
+					"appliedTaxationType": 1,
+					"totalSum": 52681,
+					"user": "АКЦИОНЕРНОЕ ОБЩЕСТВО \"ТАНДЕР\"",
+					"userInn": "2310031475  "
+				}
+			}
+		}
+	},
+	{
+		"_id": "66019362ba09165286847a81",
+		"createdAt": "2024-03-25T15:08:18+00:00",
+		"ticket": {
+			"document": {
+				"receipt": {
+					"cashTotalSum": 123300,
+					"code": 3,
+					"creditSum": 0,
+					"dateTime": "2024-03-25T17:50:00",
+					"ecashTotalSum": 0,
+					"fiscalDocumentFormatVer": 4,
+					"fiscalDocumentNumber": 5926,
+					"fiscalDriveNumber": "7284440700541291",
+					"fiscalSign": 2475605079,
+					"fnsUrl": "www.nalog.gov.ru",
+					"items": [
+						{
+							"name": "СВЯТОЙ ИСТОЧНИК Питьев Вода газ 1,5л пл/",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 5299,
+							"productType": 33,
+							"productCodeData": {
+								"gtin": 4603934000748,
+								"rawProductCode": "0104603934000748215I.Y0HB/rAYKR",
+								"productIdType": 6,
+								"sernum": "5I.Y0HB/rAYKR"
+							},
+							"quantity": 1,
+							"sum": 5299
+						},
+						{
+							"name": "ТС2 Сахар-песок белый кристаллический фас 1кг",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 5999,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 5999
+						},
+						{
+							"name": "ZEWA Plus т/бум Зеленая с аром яблока 2сл 4ру",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 9999,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 9999
+						},
+						{
+							"name": "КУЗЯ ЛАКОМКИН Кукур палочки в сах пудре140г (",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 4999,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 4999
+						},
+						{
+							"name": "Пакет-майка Магнит",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 899,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 899
+						},
+						{
+							"name": "Морковь по-корейски 200г пл/бан:6",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 4999,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 4999
+						},
+						{
+							"name": "ОЧЕНЬ ВАЖНАЯ КОРОВА Творог 5% 400г ст/бэ",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 13999,
+							"productType": 33,
+							"productCodeData": {
+								"gtin": 4604087003242,
+								"rawProductCode": "0104604087003242215GGmt5",
+								"productIdType": 6,
+								"sernum": "5GGmt5"
+							},
+							"quantity": 1,
+							"sum": 13999
+						},
+						{
+							"name": "ФРУАТЕ Йогурт манго/маракуйя 1,5% 250г л",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 3599,
+							"productType": 33,
+							"productCodeData": {
+								"gtin": 4601751023131,
+								"rawProductCode": "0104601751023131215SqSJr",
+								"productIdType": 6,
+								"sernum": "5SqSJr"
+							},
+							"quantity": 1,
+							"sum": 3599
+						},
+						{
+							"name": "Молоко пастер 3,2% 0,9л пл/бут(Сернурски",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 6999,
+							"productType": 33,
+							"productCodeData": {
+								"gtin": 4607074063717,
+								"rawProductCode": "0104607074063717215k0QZv",
+								"productIdType": 6,
+								"sernum": "5k0QZv"
+							},
+							"quantity": 1,
+							"sum": 6999
+						},
+						{
+							"name": "БАНАНЫ 1кг",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 13999,
+							"productType": 1,
+							"quantity": 0.972,
+							"sum": 13607
+						},
+						{
+							"name": "МАНДАРИНЫ в сетке цена за 1кг",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 14999,
+							"productType": 1,
+							"quantity": 1.512,
+							"sum": 22678
+						},
+						{
+							"name": "Чиабатта 290г п/уп(Ухуд)",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 5299,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 5299
+						},
+						{
+							"name": "ПАПА МОЖЕТ Сосиски Сочные мясн/пр 450г МГС(ОМ",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 11999,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 11999
+						},
+						{
+							"name": "YARATELLE Яйцо куриное С1 Халяль 10шт бокс(Ак",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 12999,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 12999
+						}
+					],
+					"kktRegId": "0007887068017838    ",
+					"nds10": 8052,
+					"nds18": 5801,
+					"operationType": 1,
+					"operator": "Товаровед магазина Галимов",
+					"prepaidSum": 0,
+					"provisionSum": 0,
+					"requestNumber": 426,
+					"retailPlace": "Магазин  Магнит  Карловка",
+					"retailPlaceAddress": "420101, Татарстан Респ, Казань г, Академика Парина ул, дом № 16, помещение 1Н",
+					"shiftNumber": 16,
+					"taxationType": 1,
+					"appliedTaxationType": 1,
+					"totalSum": 123300,
+					"user": "АКЦИОНЕРНОЕ ОБЩЕСТВО \"ТАНДЕР\"",
+					"userInn": "2310031475  "
+				}
+			}
+		}
+	},
+	{
+		"_id": "6608a0cf29e28115e798f23f",
+		"createdAt": "2024-03-30T23:31:27+00:00",
+		"ticket": {
+			"document": {
+				"receipt": {
+					"buyerPhoneOrAddress": "sibmag2645@gmail.com",
+					"cashTotalSum": 0,
+					"code": 3,
+					"creditSum": 0,
+					"dateTime": "2024-03-30T15:31:00",
+					"ecashTotalSum": 113851,
+					"fiscalDocumentFormatVer": 4,
+					"fiscalDocumentNumber": 107254,
+					"fiscalDriveNumber": "7282440500031660",
+					"fiscalSign": 2589475960,
+					"fnsUrl": "www.nalog.gov.ru",
+					"items": [
+						{
+							"name": "УВЕЛКА Гречка ядрица Экстра 800г(Ресурс):6",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 7299,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 7299
+						},
+						{
+							"name": "MAKFA Макароны улитки в/с 450г (Макфа):10",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 5399,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 5399
+						},
+						{
+							"name": "Пакет-майка Магнит",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 899,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 899
+						},
+						{
+							"name": "AQUA MINERALE Питьевая вода негаз 1л пл/",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 5499,
+							"productType": 33,
+							"productCodeData": {
+								"gtin": 4600494601309,
+								"rawProductCode": "0104600494601309215&H-ddA8N*Yk'",
+								"productIdType": 6,
+								"sernum": "5&H-ddA8N*Yk'"
+							},
+							"quantity": 1,
+							"sum": 5499
+						},
+						{
+							"name": "Хлеб Домашний в/с 250г не упак(Кулинария ММ)",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 2999,
+							"productType": 1,
+							"quantity": 1,
+							"sum": 2999
+						},
+						{
+							"name": "ОЧЕНЬ ВАЖНАЯ КОРОВА Молоко 2,5% 0,93кг п",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 7299,
+							"productType": 33,
+							"productCodeData": {
+								"gtin": 4604087001439,
+								"rawProductCode": "0104604087001439215F%qpr",
+								"productIdType": 6,
+								"sernum": "5F%qpr"
+							},
+							"quantity": 1,
+							"sum": 7299
+						},
+						{
+							"name": "ОЧЕНЬ ВАЖНАЯ КОРОВА Молоко 2,5% 0,93кг п",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 7299,
+							"productType": 33,
+							"productCodeData": {
+								"gtin": 4604087001439,
+								"rawProductCode": "0104604087001439215!Xuh(",
+								"productIdType": 6,
+								"sernum": "5!Xuh("
+							},
+							"quantity": 1,
+							"sum": 7299
+						},
+						{
+							"name": "6 СОТОК Кукуруза сладкая в/с 340г ж/б:12",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 8999,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 2,
+							"sum": 17998
+						},
+						{
+							"name": "НАЦИОНАЛЬ Рис для плова 1с 900г м/уп(Ангстрем",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 13399,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 13399
+						},
+						{
+							"name": "ОЧЕНЬ ВАЖНАЯ КОРОВА Творог 5% 400г ст/бэ",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 16999,
+							"productType": 33,
+							"productCodeData": {
+								"gtin": 4604087003242,
+								"rawProductCode": "01046040870032422156G,HK",
+								"productIdType": 6,
+								"sernum": "56G,HK"
+							},
+							"quantity": 1,
+							"sum": 16999
+						},
+						{
+							"name": "БАНАНЫ 1кг",
+							"nds": 1,
+							"paymentType": 4,
+							"price": 13999,
+							"productType": 1,
+							"quantity": 1.426,
+							"sum": 19963
+						},
+						{
+							"name": "DELIKAISER Сосиски Молочные ГОСТ 0,32кг МГС (",
+							"nds": 2,
+							"paymentType": 4,
+							"price": 8799,
+							"productType": 1,
+							"productCodeDataError": "not supported product type 3",
+							"quantity": 1,
+							"sum": 8799
+						}
+					],
+					"kktRegId": "0006256869000508    ",
+					"nds10": 6319,
+					"nds18": 7394,
+					"operationType": 1,
+					"operator": "Товаровед магазина Галимов",
+					"prepaidSum": 0,
+					"provisionSum": 0,
+					"requestNumber": 103,
+					"retailPlace": "Магазин  Магнит  Карловка",
+					"retailPlaceAddress": "420101, Татарстан Респ, Казань г, Академика Парина ул, дом № 16,,помещ. 1Н",
+					"sellerAddress": "ofd@magnit.ru",
+					"shiftNumber": 380,
+					"taxationType": 1,
+					"appliedTaxationType": 1,
+					"totalSum": 113851,
+					"user": "АКЦИОНЕРНОЕ ОБЩЕСТВО \"ТАНДЕР\"",
+					"userInn": "2310031475  "
+				}
+			}
+		}
+	}
+]

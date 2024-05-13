@@ -9,5 +9,6 @@
         public int price { get; set; }
         public float quantity { get; set; }
         public int sum { get; set; }
+        public string YandexGPT { get; set; }
     }
 }

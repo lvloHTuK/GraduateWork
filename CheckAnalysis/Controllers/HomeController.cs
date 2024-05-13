@@ -24,48 +24,100 @@ namespace CheckAnalysis.Controllers
         {
             foreach (var file in files.Files)
             {
-                string targetFileName = $"{AppDomain.CurrentDomain.BaseDirectory}/DownloadsChecks/{file.FileName}";
+                //string targetFileName = $"{AppDomain.CurrentDomain.BaseDirectory}/DownloadsChecks/{file.FileName}";
 
-                using (var stream = new FileStream(targetFileName, FileMode.Create))
+                /*using (var stream = new FileStream(targetFileName, FileMode.Create))
                 {
                     file.CopyToAsync(stream);
-                }
+                }*/
 
                 //Console.WriteLine(s);
-                using (StreamReader sr = System.IO.File.OpenText(targetFileName))
+                using (var sr = new StreamReader(file.OpenReadStream()))
                 {
-                    string s;
-                    string jsonCheck = "";
-                    int count = 0;
-                    while ((s = sr.ReadLine()) != null)
+                    //await ReadJsonFormat(sr);
+                    await ReadOneLine(sr);
+                }
+            }
+            return View("Index");
+        }
+
+        private async Task ReadOneLine(StreamReader reader)
+        {
+            string s;
+            int count = 0;
+            string jsonCheck = "";
+            char prevCh = '_';
+            while ((s = reader.ReadLine()) != null)
+            {
+                foreach(var ch in s)
+                {
+                    if (ch == '{')
                     {
-                        if(s.Contains("{"))
+                        count++;
+                        jsonCheck += ch;
+                    }
+                    else if (ch == '}' || (ch == ',' && prevCh == '{'))
+                    {
+                        count--;
+                        if(ch == ',')
                         {
-                            count++;
-                            jsonCheck += s.Trim();
-                        }
-                        else if(s.Trim() == "}" || s.Trim() == "},")
-                        {
-                            count--;
-                            jsonCheck += s.Trim();
+                            jsonCheck += prevCh;
+                            jsonCheck += ch;
                         }
                         else
                         {
-                            jsonCheck += s.Trim();
-                        }
-                        if(count == 0 && s != "[" && s != "]")
-                        {
-                            jsonCheck = jsonCheck.Trim('[');
-                            jsonCheck = jsonCheck.Trim(',');
-                            CheckFile check = JsonSerializer.Deserialize<CheckFile>(jsonCheck);
-                            await _checkDataRepository.Add(check);
-                            jsonCheck = "";
+                            jsonCheck += ch;
                         }
                     }
+                    else
+                    {
+                        jsonCheck += ch;
+                    }
+                    if (count == 0 && ch != '[' && ch != ']' && ch != ',')
+                    {
+                        jsonCheck = jsonCheck.Trim('[');
+                        jsonCheck = jsonCheck.Trim(',');
+                        Console.WriteLine(jsonCheck);
+                        CheckFile check = JsonSerializer.Deserialize<CheckFile>(jsonCheck);
+                        await _checkDataRepository.Add(check);
+                        jsonCheck = "";
+                    }
+                    prevCh = ch;
                 }
             }
             await _checkDataRepository.Save();
-            return View("Index");
+        }
+
+        private async Task ReadJsonFormat(StreamReader reader)
+        {
+            string s;
+            string jsonCheck = "";
+            int count = 0;
+            while ((s = reader.ReadLine()) != null)
+            {
+                if (s.Contains("{"))
+                {
+                    count++;
+                    jsonCheck += s.Trim();
+                }
+                else if (s.Trim() == "}" || s.Trim() == "},")
+                {
+                    count--;
+                    jsonCheck += s.Trim();
+                }
+                else
+                {
+                    jsonCheck += s.Trim();
+                }
+                if (count == 0 && s != "[" && s != "]")
+                {
+                    jsonCheck = jsonCheck.Trim('[');
+                    jsonCheck = jsonCheck.Trim(',');
+                    CheckFile check = JsonSerializer.Deserialize<CheckFile>(jsonCheck);
+                    await _checkDataRepository.Add(check);
+                    jsonCheck = "";
+                }
+            }
         }
     }
 }

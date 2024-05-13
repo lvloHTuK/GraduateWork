@@ -5,15 +5,16 @@ namespace CheckAnalysis.Models
     public class ItemData
     {
         [Key]
-        public Guid Id { get; set; }
-        public string CheckId {get; set;}
+        public Guid? Id { get; set; }
+        public string? CheckId {get; set;}
         public string? name { get; set; }
-        public int nds { get; set; }
-        public int ndsSum { get; set; }
-        public int paymentType { get; set; }
-        public int price { get; set; }
-        public double quantity { get; set; }
-        public int sum { get; set; }
+        public int? nds { get; set; }
+        public int? ndsSum { get; set; }
+        public int? paymentType { get; set; }
+        public int? price { get; set; }
+        public double? quantity { get; set; }
+        public int? sum { get; set; }
+        public string YandexGPT { get; set; }
 
         public ItemData()
         {
@@ -21,7 +22,7 @@ namespace CheckAnalysis.Models
         }
         public ItemData(Items item, string checkId)
         {
-            Id = new Guid();
+            Id = Guid.NewGuid();
             CheckId = checkId;
             name = item.name;
             nds = item.nds;
@@ -31,6 +32,8 @@ namespace CheckAnalysis.Models
             quantity = item.quantity;
             sum = item.sum / 100;
             CheckId = checkId;
+            YandexGPT = item.YandexGPT;
         }
+
     }
 }
