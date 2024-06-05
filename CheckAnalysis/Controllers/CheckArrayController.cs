@@ -2,6 +2,7 @@
 using CheckAnalysis.Data.Repositories;
 using CheckAnalysis.Models;
 using Microsoft.AspNetCore.Mvc;
+using System.Drawing;
 using System.Globalization;
 
 namespace CheckAnalysis.Controllers
@@ -66,6 +67,15 @@ namespace CheckAnalysis.Controllers
             var sumOfMonth = await _checkDataRepository.GetCostOfMonth();
             ViewBag.AvgCheck = avgCheck;
             ViewBag.AllCost = allSum;
+            List<string> pixel = new List<string>();
+            var max = sumOfMonth.Max(x => x.Value);
+            int percent;
+            foreach(var item in sumOfMonth)
+            {
+                percent = (int)(100 * item.Value / max);
+                pixel.Add(String.Concat(percent.ToString(), "px"));
+            }
+            ViewBag.Px = pixel;
             ViewBag.Cost = sumOfMonth;
             return View();
         }
@@ -79,7 +89,25 @@ namespace CheckAnalysis.Controllers
             {
                 popularProducts.Add(new ProductInfo(product, await _checkDataRepository.GetAVGQuantityProduct(product, dateData.FirstDate, dateData.LastDate), await _checkDataRepository.GetCostOfMonth(product, dateData.FirstDate, dateData.LastDate)));
             }*/
-            ViewBag.PopularProducts = productsInfo;
+            var productCategory = await _checkDataRepository.GetInfoCategory(dateData.FirstDate, dateData.LastDate);
+            var random = new Random();
+            var allSum = productCategory.Select(x => x.Sum).Sum();
+            List<ProductInfo> prod = new List<ProductInfo>();
+            double? percentSum = 0;
+            foreach (var item in productCategory)
+            {
+                item.Percent = (item.Sum * 100) / allSum;
+                int dashOne = (int)(item.Percent + percentSum);
+                int dashTwo = (int)(100 - percentSum);
+                item.Dash_Stroke = dashOne.ToString() + " " + dashTwo.ToString();
+                prod.Add(item);
+                percentSum = prod.Select(x => x.Percent).Sum();
+                item.Color = String.Format("#{0:X6}", random.Next(0x1000000));
+                Console.WriteLine(item.Name + " " + item.Color + " " + item.Percent.ToString() + " " + item.Dash_Stroke.ToString());
+            }
+            productCategory.Reverse();
+            ViewBag.Circle = productCategory;
+            ViewBag.PopularProducts = productsInfo.OrderByDescending(x => x.Sum);
             return View();
         }
     }

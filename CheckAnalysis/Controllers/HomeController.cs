@@ -24,17 +24,8 @@ namespace CheckAnalysis.Controllers
         {
             foreach (var file in files.Files)
             {
-                //string targetFileName = $"{AppDomain.CurrentDomain.BaseDirectory}/DownloadsChecks/{file.FileName}";
-
-                /*using (var stream = new FileStream(targetFileName, FileMode.Create))
-                {
-                    file.CopyToAsync(stream);
-                }*/
-
-                //Console.WriteLine(s);
                 using (var sr = new StreamReader(file.OpenReadStream()))
                 {
-                    //await ReadJsonFormat(sr);
                     await ReadOneLine(sr);
                 }
             }

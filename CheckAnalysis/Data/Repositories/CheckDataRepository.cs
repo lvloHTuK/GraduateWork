@@ -133,6 +133,39 @@ namespace CheckAnalysis.Data.Repositories
             return products;
         }
 
+        public async Task<List<ProductInfo>> GetInfoCategory(DateTime firstDate, DateTime lastDate)
+        {
+            List<ProductInfo> products = new List<ProductInfo>();
+            using (DbCommand command = db.Database.GetDbConnection().CreateCommand())
+            {
+                command.CommandText = "SELECT SUM(ItemData.quantity), SUM(ItemData.sum), ItemData.Category \r\n" +
+                    "FROM [CheckData] LEFT JOIN [ItemData] ON CheckData.CheckId = ItemData.CheckId\r\n" +
+                    "WHERE CheckData.dateTime BETWEEN @p1 AND @p2\r\n" +
+                    "GROUP BY ItemData.Category";
+                var parameter1 = new SqlParameter("@p1", firstDate.Date);
+                var parameter2 = new SqlParameter("@p2", lastDate.Date);
+                command.Parameters.Add(parameter1);
+                command.Parameters.Add(parameter2);
+                db.Database.OpenConnection();
+                using (var reader = command.ExecuteReader())
+                {
+                    if (reader.HasRows)
+                    {
+                        while (reader.Read())
+                        {
+                            products.Add(new ProductInfo(reader.GetString(2), reader.GetDouble(0), reader.GetInt32(1)));
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("No rows found.");
+                    }
+                    reader.Close();
+                }
+            }
+            return products;
+        }
+
         public async Task<double?> GetAVGQuantityProduct(string productName, DateTime firstDate, DateTime lastDate)
         {
             var checksId = db.CheckData.Where(x => lastDate >= x.dateTime && x.dateTime >= firstDate).Select(x => x.CheckId).ToList();
