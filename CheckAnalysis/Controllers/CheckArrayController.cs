@@ -20,7 +20,7 @@ namespace CheckAnalysis.Controllers
 
         public async Task<ViewResult> Index()
         {
-            foreach(var check in await _checkDataRepository.GetAll())
+            foreach (var check in await _checkDataRepository.GetAll())
             {
                 ItemData.Add(check);
             }
@@ -33,7 +33,7 @@ namespace CheckAnalysis.Controllers
             var products = await _checkDataRepository.GetAllUniqueProducts();
             ViewBag.Products = products;
             Dictionary<string, double?> popularProducts = new Dictionary<string, double?>();
-            foreach(var product in products)
+            foreach (var product in products)
             {
                 popularProducts.Add(product, await _checkDataRepository.GetAVGQuantityProduct(product));
             }
@@ -70,7 +70,7 @@ namespace CheckAnalysis.Controllers
             List<string> pixel = new List<string>();
             var max = sumOfMonth.Max(x => x.Value);
             int percent;
-            foreach(var item in sumOfMonth)
+            foreach (var item in sumOfMonth)
             {
                 percent = (int)(100 * item.Value / max);
                 pixel.Add(String.Concat(percent.ToString(), "px"));
@@ -82,13 +82,10 @@ namespace CheckAnalysis.Controllers
 
         public async Task<ViewResult> MonthInfo(DateData dateData)
         {
-            //var products = await _checkDataRepository.GetAllUniqueProducts();
+            Console.WriteLine(dateData.FirstDate.ToString());
+            Console.WriteLine(dateData.LastDate.ToString());
             var productsInfo = await _checkDataRepository.GetInfoProduct(dateData.FirstDate, dateData.LastDate);
-            /*List<ProductInfo> popularProducts = new List<ProductInfo>();
-            foreach (var product in products)
-            {
-                popularProducts.Add(new ProductInfo(product, await _checkDataRepository.GetAVGQuantityProduct(product, dateData.FirstDate, dateData.LastDate), await _checkDataRepository.GetCostOfMonth(product, dateData.FirstDate, dateData.LastDate)));
-            }*/
+            var productsInfoForPreviosMonth = await _checkDataRepository.GetInfoProduct(dateData.FirstDate.AddMonths(-1), dateData.LastDate.AddMonths(-1));
             var productCategory = await _checkDataRepository.GetInfoCategory(dateData.FirstDate, dateData.LastDate);
             var random = new Random();
             var allSum = productCategory.Select(x => x.Sum).Sum();
@@ -105,7 +102,26 @@ namespace CheckAnalysis.Controllers
                 item.Color = String.Format("#{0:X6}", random.Next(0x1000000));
                 Console.WriteLine(item.Name + " " + item.Color + " " + item.Percent.ToString() + " " + item.Dash_Stroke.ToString());
             }
+            List<IndexOfCost> listIndexs = new List<IndexOfCost>();
+            foreach (var product in productsInfo)
+            {
+                var productForPreviousMonth = productsInfoForPreviosMonth.FirstOrDefault(x => x.Name == product.Name);
+                if (productForPreviousMonth != null)
+                {
+                    listIndexs.Add(new IndexOfCost(product.Name, productForPreviousMonth.Sum, productForPreviousMonth.AvgQuantity, product.Sum, product.AvgQuantity));
+                }
+            }
+            var sumP0Q0 = listIndexs.Select(x => x.p0q0).Sum();
+            var sumP1Q0 = listIndexs.Select(x => x.p1q0).Sum();
+            var sumP0Q1 = listIndexs.Select(x => x.p0q1).Sum();
+            var sumP1Q1 = listIndexs.Select(x => x.p1q1).Sum();
+            var generalIndex = sumP1Q1 / sumP0Q1;
+            var consumerPriceIndex = sumP1Q0 / sumP0Q0;
             productCategory.Reverse();
+            ViewBag.GeneralIndex = generalIndex;
+            ViewBag.ConsumerPriceIndex = consumerPriceIndex;
+            ViewBag.IndexsOfCost = listIndexs;
+            ViewBag.Month = dateData.Name.ToUpperInvariant();
             ViewBag.Circle = productCategory;
             ViewBag.PopularProducts = productsInfo.OrderByDescending(x => x.Sum);
             return View();

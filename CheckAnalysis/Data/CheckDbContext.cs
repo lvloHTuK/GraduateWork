@@ -15,6 +15,7 @@ namespace CheckAnalysis.Data
 
         public DbSet<CheckData> CheckData { get; set; }
         public DbSet<ItemData> ItemData { get; set; }
+        public DbSet<MarketBusketData> MarketBusket { get; set; }
 
     }
 }

@@ -1,0 +1,200 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Vladi\\Documents\\MyFolder\\GraduateWork\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8CBD9B66-1F3A-4709-AA0E-BCE83356C926}|CheckAnalysis\\CheckAnalysis.csproj|c:\\users\\vladi\\documents\\myfolder\\graduatework\\checkanalysis\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CBD9B66-1F3A-4709-AA0E-BCE83356C926}|CheckAnalysis\\CheckAnalysis.csproj|solutionrelative:checkanalysis\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CBD9B66-1F3A-4709-AA0E-BCE83356C926}|CheckAnalysis\\CheckAnalysis.csproj|c:\\users\\vladi\\documents\\myfolder\\graduatework\\checkanalysis\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CBD9B66-1F3A-4709-AA0E-BCE83356C926}|CheckAnalysis\\CheckAnalysis.csproj|solutionrelative:checkanalysis\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CBD9B66-1F3A-4709-AA0E-BCE83356C926}|CheckAnalysis\\CheckAnalysis.csproj|c:\\users\\vladi\\documents\\myfolder\\graduatework\\checkanalysis\\data\\repositories\\checkdatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CBD9B66-1F3A-4709-AA0E-BCE83356C926}|CheckAnalysis\\CheckAnalysis.csproj|solutionrelative:checkanalysis\\data\\repositories\\checkdatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CBD9B66-1F3A-4709-AA0E-BCE83356C926}|CheckAnalysis\\CheckAnalysis.csproj|c:\\users\\vladi\\documents\\myfolder\\graduatework\\checkanalysis\\controllers\\checkarraycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CBD9B66-1F3A-4709-AA0E-BCE83356C926}|CheckAnalysis\\CheckAnalysis.csproj|solutionrelative:checkanalysis\\controllers\\checkarraycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CBD9B66-1F3A-4709-AA0E-BCE83356C926}|CheckAnalysis\\CheckAnalysis.csproj|c:\\users\\vladi\\documents\\myfolder\\graduatework\\checkanalysis\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CBD9B66-1F3A-4709-AA0E-BCE83356C926}|CheckAnalysis\\CheckAnalysis.csproj|solutionrelative:checkanalysis\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CBD9B66-1F3A-4709-AA0E-BCE83356C926}|CheckAnalysis\\CheckAnalysis.csproj|c:\\users\\vladi\\documents\\myfolder\\graduatework\\checkanalysis\\views\\checkarray\\monthinfo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CBD9B66-1F3A-4709-AA0E-BCE83356C926}|CheckAnalysis\\CheckAnalysis.csproj|solutionrelative:checkanalysis\\views\\checkarray\\monthinfo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CBD9B66-1F3A-4709-AA0E-BCE83356C926}|CheckAnalysis\\CheckAnalysis.csproj|c:\\users\\vladi\\documents\\myfolder\\graduatework\\checkanalysis\\views\\marketbusket\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CBD9B66-1F3A-4709-AA0E-BCE83356C926}|CheckAnalysis\\CheckAnalysis.csproj|solutionrelative:checkanalysis\\views\\marketbusket\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CBD9B66-1F3A-4709-AA0E-BCE83356C926}|CheckAnalysis\\CheckAnalysis.csproj|c:\\users\\vladi\\documents\\myfolder\\graduatework\\checkanalysis\\models\\marketbusketanalyse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CBD9B66-1F3A-4709-AA0E-BCE83356C926}|CheckAnalysis\\CheckAnalysis.csproj|solutionrelative:checkanalysis\\models\\marketbusketanalyse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CBD9B66-1F3A-4709-AA0E-BCE83356C926}|CheckAnalysis\\CheckAnalysis.csproj|c:\\users\\vladi\\documents\\myfolder\\graduatework\\checkanalysis\\models\\marketbusketdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CBD9B66-1F3A-4709-AA0E-BCE83356C926}|CheckAnalysis\\CheckAnalysis.csproj|solutionrelative:checkanalysis\\models\\marketbusketdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CBD9B66-1F3A-4709-AA0E-BCE83356C926}|CheckAnalysis\\CheckAnalysis.csproj|c:\\users\\vladi\\documents\\myfolder\\graduatework\\checkanalysis\\models\\indexofcost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CBD9B66-1F3A-4709-AA0E-BCE83356C926}|CheckAnalysis\\CheckAnalysis.csproj|solutionrelative:checkanalysis\\models\\indexofcost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CBD9B66-1F3A-4709-AA0E-BCE83356C926}|CheckAnalysis\\CheckAnalysis.csproj|c:\\users\\vladi\\documents\\myfolder\\graduatework\\checkanalysis\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CBD9B66-1F3A-4709-AA0E-BCE83356C926}|CheckAnalysis\\CheckAnalysis.csproj|solutionrelative:checkanalysis\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vladi\\Documents\\MyFolder\\GraduateWork\\CheckAnalysis\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CheckAnalysis\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Vladi\\Documents\\MyFolder\\GraduateWork\\CheckAnalysis\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CheckAnalysis\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-27T15:31:47.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vladi\\Documents\\MyFolder\\GraduateWork\\CheckAnalysis\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CheckAnalysis\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Vladi\\Documents\\MyFolder\\GraduateWork\\CheckAnalysis\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CheckAnalysis\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-27T15:31:34.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Vladi\\Documents\\MyFolder\\GraduateWork\\CheckAnalysis\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CheckAnalysis\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Vladi\\Documents\\MyFolder\\GraduateWork\\CheckAnalysis\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CheckAnalysis\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAuwBgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T12:22:41.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MonthInfo.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vladi\\Documents\\MyFolder\\GraduateWork\\CheckAnalysis\\Views\\CheckArray\\MonthInfo.cshtml",
+              "RelativeDocumentMoniker": "CheckAnalysis\\Views\\CheckArray\\MonthInfo.cshtml",
+              "ToolTip": "C:\\Users\\Vladi\\Documents\\MyFolder\\GraduateWork\\CheckAnalysis\\Views\\CheckArray\\MonthInfo.cshtml",
+              "RelativeToolTip": "CheckAnalysis\\Views\\CheckArray\\MonthInfo.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADgAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-27T12:54:23.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CheckArrayController.cs",
+              "DocumentMoniker": "C:\\Users\\Vladi\\Documents\\MyFolder\\GraduateWork\\CheckAnalysis\\Controllers\\CheckArrayController.cs",
+              "RelativeDocumentMoniker": "CheckAnalysis\\Controllers\\CheckArrayController.cs",
+              "ToolTip": "C:\\Users\\Vladi\\Documents\\MyFolder\\GraduateWork\\CheckAnalysis\\Controllers\\CheckArrayController.cs",
+              "RelativeToolTip": "CheckAnalysis\\Controllers\\CheckArrayController.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAAAFUAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T13:14:19.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CheckDataRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Vladi\\Documents\\MyFolder\\GraduateWork\\CheckAnalysis\\Data\\Repositories\\CheckDataRepository.cs",
+              "RelativeDocumentMoniker": "CheckAnalysis\\Data\\Repositories\\CheckDataRepository.cs",
+              "ToolTip": "C:\\Users\\Vladi\\Documents\\MyFolder\\GraduateWork\\CheckAnalysis\\Data\\Repositories\\CheckDataRepository.cs",
+              "RelativeToolTip": "CheckAnalysis\\Data\\Repositories\\CheckDataRepository.cs",
+              "ViewState": "AQIAAGQBAAAAAAAAAAAYwHQBAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T14:05:02.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MarketBusketAnalyse.cs",
+              "DocumentMoniker": "C:\\Users\\Vladi\\Documents\\MyFolder\\GraduateWork\\CheckAnalysis\\Models\\MarketBusketAnalyse.cs",
+              "RelativeDocumentMoniker": "CheckAnalysis\\Models\\MarketBusketAnalyse.cs",
+              "ToolTip": "C:\\Users\\Vladi\\Documents\\MyFolder\\GraduateWork\\CheckAnalysis\\Models\\MarketBusketAnalyse.cs",
+              "RelativeToolTip": "CheckAnalysis\\Models\\MarketBusketAnalyse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T21:36:59.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vladi\\Documents\\MyFolder\\GraduateWork\\CheckAnalysis\\Views\\MarketBusket\\Index.cshtml",
+              "RelativeDocumentMoniker": "CheckAnalysis\\Views\\MarketBusket\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Vladi\\Documents\\MyFolder\\GraduateWork\\CheckAnalysis\\Views\\MarketBusket\\Index.cshtml",
+              "RelativeToolTip": "CheckAnalysis\\Views\\MarketBusket\\Index.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-22T09:39:55.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MarketBusketData.cs",
+              "DocumentMoniker": "C:\\Users\\Vladi\\Documents\\MyFolder\\GraduateWork\\CheckAnalysis\\Models\\MarketBusketData.cs",
+              "RelativeDocumentMoniker": "CheckAnalysis\\Models\\MarketBusketData.cs",
+              "ToolTip": "C:\\Users\\Vladi\\Documents\\MyFolder\\GraduateWork\\CheckAnalysis\\Models\\MarketBusketData.cs",
+              "RelativeToolTip": "CheckAnalysis\\Models\\MarketBusketData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T21:36:58.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IndexOfCost.cs",
+              "DocumentMoniker": "C:\\Users\\Vladi\\Documents\\MyFolder\\GraduateWork\\CheckAnalysis\\Models\\IndexOfCost.cs",
+              "RelativeDocumentMoniker": "CheckAnalysis\\Models\\IndexOfCost.cs",
+              "ToolTip": "C:\\Users\\Vladi\\Documents\\MyFolder\\GraduateWork\\CheckAnalysis\\Models\\IndexOfCost.cs",
+              "RelativeToolTip": "CheckAnalysis\\Models\\IndexOfCost.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T14:06:10.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\Vladi\\Documents\\MyFolder\\GraduateWork\\CheckAnalysis\\Startup.cs",
+              "RelativeDocumentMoniker": "CheckAnalysis\\Startup.cs",
+              "ToolTip": "C:\\Users\\Vladi\\Documents\\MyFolder\\GraduateWork\\CheckAnalysis\\Startup.cs",
+              "RelativeToolTip": "CheckAnalysis\\Startup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T07:54:44.268Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

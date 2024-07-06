@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CheckAnalysis")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+37d77b1fa7de7488fe6a1227c3c9a6b95f540548")]
 [assembly: System.Reflection.AssemblyProductAttribute("CheckAnalysis")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CheckAnalysis")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

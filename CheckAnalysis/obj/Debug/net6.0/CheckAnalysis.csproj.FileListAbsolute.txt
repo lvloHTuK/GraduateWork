@@ -59,7 +59,6 @@ C:\Users\Vladi\Documents\MyFolder\GraduateWork\CheckAnalysis\obj\Debug\net6.0\st
 C:\Users\Vladi\Documents\MyFolder\GraduateWork\CheckAnalysis\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Vladi\Documents\MyFolder\GraduateWork\CheckAnalysis\obj\Debug\net6.0\scopedcss\bundle\CheckAnalysis.styles.css
 C:\Users\Vladi\Documents\MyFolder\GraduateWork\CheckAnalysis\obj\Debug\net6.0\scopedcss\projectbundle\CheckAnalysis.bundle.scp.css
-C:\Users\Vladi\Documents\MyFolder\GraduateWork\CheckAnalysis\obj\Debug\net6.0\CheckAnalysis.csproj.CopyComplete
 C:\Users\Vladi\Documents\MyFolder\GraduateWork\CheckAnalysis\obj\Debug\net6.0\refint\CheckAnalysis.dll
 C:\Users\Vladi\Documents\MyFolder\GraduateWork\CheckAnalysis\obj\Debug\net6.0\CheckAnalysis.genruntimeconfig.cache
 C:\Users\Vladi\Documents\MyFolder\GraduateWork\CheckAnalysis\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
@@ -96,3 +95,10 @@ C:\Users\Vladi\Documents\MyFolder\GraduateWork\CheckAnalysis\bin\Debug\net6.0\ru
 C:\Users\Vladi\Documents\MyFolder\GraduateWork\CheckAnalysis\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\Vladi\Documents\MyFolder\GraduateWork\CheckAnalysis\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Vladi\Documents\MyFolder\GraduateWork\CheckAnalysis\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Vladi\Documents\MyFolder\GraduateWork\CheckAnalysis\obj\Debug\net6.0\CheckAnalysis.sourcelink.json
+C:\Users\Vladi\Documents\MyFolder\GraduateWork\CheckAnalysis\obj\Debug\net6.0\staticwebassets\msbuild.CheckAnalysis.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Vladi\Documents\MyFolder\GraduateWork\CheckAnalysis\obj\Debug\net6.0\staticwebassets\msbuild.build.CheckAnalysis.props
+C:\Users\Vladi\Documents\MyFolder\GraduateWork\CheckAnalysis\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.CheckAnalysis.props
+C:\Users\Vladi\Documents\MyFolder\GraduateWork\CheckAnalysis\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.CheckAnalysis.props
+C:\Users\Vladi\Documents\MyFolder\GraduateWork\CheckAnalysis\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Vladi\Documents\MyFolder\GraduateWork\CheckAnalysis\obj\Debug\net6.0\CheckAna.143299B5.Up2Date

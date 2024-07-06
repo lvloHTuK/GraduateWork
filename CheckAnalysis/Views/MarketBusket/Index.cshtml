@@ -1,51 +1,59 @@
 ﻿@*
 *@
 @page
-@model CheckAnalysis.Data.Repositories.CheckDataRepository;
+
 
 @{
 
 }
 
-<h1>Index</h1>
+<h1>Market Basket анализ</h1>
 
 
 <table class="table">
     <thead>
         <tr>
             <th>
-                Name
+                Lhs
             </th>
             <th>
-                Price
+                Rhs
             </th>
             <th>
-                Quantity
+                Frequency
             </th>
             <th>
-                Sum
+                Support
             </th>
-            <th></th>
+            <th>
+                Confidence
+            </th>
+            <th>
+                Lift
+            </th>
         </tr>
     </thead>
     <tbody>
-        @foreach (var item in ViewBag.Checks)
+        @foreach (var item in ViewBag.MarketBasket)
         {
             <tr>
                 <td>
-                    @item.name
+                    @item.Lhs
                 </td>
                 <td>
-                    @item.price
+                    @item.Rhs
                 </td>
                 <td>
-                    @item.quantity
+                    @item.Frequency
                 </td>
                 <td>
-                    @item.sum
+                    @item.Support
                 </td>
                 <td>
-
+                    @item.Confidence
+                </td>
+                <td>
+                    @item.Lift
                 </td>
             </tr>
         }

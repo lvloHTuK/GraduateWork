@@ -1,5 +1,4 @@
 ﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
 @{
 }
@@ -10,7 +9,7 @@
 
 <div>
     <p class="Project_Analytics_Heading text-center">
-        Time per Application
+
     </p>
     <svg viewBox="0 0 36 36" class="circular-chart">
 
@@ -22,20 +21,50 @@
         }
 
 
-        <text x="18" y="20.35" class="percentage">Круг</text>
+        <text x="18" y="20.35" class="percentage">@ViewBag.Month</text>
         <text x="13" y="25" class="percentage_done"></text>
 
     </svg>
 </div>
 
-@foreach (var item in ViewBag.Circle){
+@foreach (var item in ViewBag.Circle)
+{
     <div class="month" style="background-color: @item.Color" style="display: inline grid">
-        <p >
+        <p>
             @item.Name
             @((int)item.Percent) %
         </p>
     </div>
 }
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Продукт
+            </th>
+            <th>
+                Индекс цены(изм. в %)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in ViewBag.IndexsOfCost)
+        {
+            <tr>
+                <td>
+                    @item.Name
+                </td>
+                <td>
+                    @item.IndexCost
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<p>Общий (агрегатный) индекс цен, рассчитанный по формуле Пааше, равен: @ViewBag.GeneralIndex</p>
+<p>Индекс потреьительских цен, рассчитанный по формуле Ласпейреса, равен: @ViewBag.ConsumerPriceIndex</p>
 
 <table class="table">
     <thead>
@@ -62,7 +91,6 @@
                     @item.Name
                 </td>
                 <td class="square" style="background-color: @item.Color">
-
                 </td>
                 <td>
                     @item.AvgQuantity

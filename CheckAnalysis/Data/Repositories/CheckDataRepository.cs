@@ -2,9 +2,11 @@
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
+using System.Data;
 using System.Data.Common;
 using System.Reflection.PortableExecutable;
 using System.Runtime.CompilerServices;
+using System.Xml.Linq;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace CheckAnalysis.Data.Repositories
@@ -75,6 +77,265 @@ namespace CheckAnalysis.Data.Repositories
             }
 
             return null;
+        }
+
+        public async Task<List<string?>> GetAllChecks()
+        {
+            var checks = db.CheckData.Select(x => x.CheckId).Distinct().ToList();
+            if (checks != null)
+            {
+                return checks;
+            }
+
+            return null;
+        }
+
+        public List<string?> GetDistinctProductsInCheck(string? checkId)
+        {
+            var products = db.ItemData.Where(x => x.CheckId == checkId).Select(x => x.YandexGPT).Distinct().ToList();
+            if (products != null)
+            {
+                return products;
+            }
+
+            return null;
+        }
+
+        public async Task<MarketBusketData> GetMarketBusketData(string? checkId)
+        {
+            Dictionary<string, int> dict = new Dictionary<string, int>();
+            using (DbCommand command = db.Database.GetDbConnection().CreateCommand())
+            {
+                command.CommandText = "SELECT * FROM [Checks].[dbo].[MarketBusket] WHERE CheckId = @p1";
+                var parameter1 = new SqlParameter("@p1", checkId);
+                command.Parameters.Add(parameter1);
+                db.Database.OpenConnection();
+                var products = await GetAllUniqueProducts();
+                var countProduct = products.Count();
+                using (var reader = command.ExecuteReader())
+                {
+                    if (reader.HasRows)
+                    {
+                        while (reader.Read())
+                        {
+                            for (int i = 1; i <= countProduct; i++)
+                            {
+                                var val = reader.GetInt32(i);
+                                if (val != 0)
+                                {
+                                    dict.Add(reader.GetName(i), val);
+                                }
+                            }
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("No rows found.");
+                    }
+                    reader.Close();
+                }
+            }
+            return new MarketBusketData(checkId, dict);
+        }
+
+        public async Task InsertNullOnZero()
+        {
+            var products = await GetAllUniqueProducts();
+            using (DbCommand command = db.Database.GetDbConnection().CreateCommand())
+            {
+                foreach (var item in products)
+                {
+                    command.CommandText = $"UPDATE [Checks].[dbo].[MarketBusket] SET [{item.Replace(' ', '_').Replace('-', '_')}] = ISNULL([{item.Replace(' ', '_').Replace('-', '_')}], 0)";
+                    db.Database.OpenConnection();
+                    await command.ExecuteNonQueryAsync();
+                }
+            }
+        }
+
+        public async Task UpdateMarketBusket()
+        {
+            var checks = NewChecks();
+            foreach (var check in checks)
+            {
+                await AddMarketBusket(check);
+            }
+            await InsertNullOnZero();
+        }
+
+        private List<string?> NewChecks()
+        {
+            List<string?> checks = new List<string?>();
+            using (DbCommand command = db.Database.GetDbConnection().CreateCommand())
+            {
+                command.CommandText = "SELECT CheckData.CheckId FROM [CheckData] LEFT JOIN [MarketBusket] ON CheckData.CheckId = MarketBusket.CheckId WHERE MarketBusket.CheckId IS NULL";
+                db.Database.OpenConnection();
+                using (var reader = command.ExecuteReader())
+                {
+                    if (reader.HasRows)
+                    {
+                        while (reader.Read())
+                        {
+                            checks.Add(reader.GetString(0));
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("No rows found.");
+                    }
+                    reader.Close();
+                }
+            }
+            return checks;
+        }
+
+        public async Task AddMarketBusket(string checkId)
+        {
+            using (DbCommand command = db.Database.GetDbConnection().CreateCommand())
+            {
+                command.CommandText = "INSERT INTO MarketBusket ([CheckId]) VALUES (@p1)";
+                var parameter1 = new SqlParameter("@p1", checkId);
+                command.Parameters.Add(parameter1);
+                db.Database.OpenConnection();
+                var answer = command.ExecuteNonQuery();
+                if (answer == 1)
+                {
+                    command.CommandText = "SELECT DISTINCT [YandexGPT]\r\n  FROM [Checks].[dbo].[ItemData] WHERE ItemData.CheckId = @p2";
+                    parameter1 = new SqlParameter("@p2", checkId);
+                    command.Parameters.Add(parameter1);
+                    using (var reader = command.ExecuteReader())
+                    {
+                        if (reader.HasRows)
+                        {
+                            while (reader.Read())
+                            {
+                                AddCountInCheck(checkId, reader.GetString(0));
+                            }
+                        }
+                        else
+                        {
+                            Console.WriteLine("No rows found.");
+                        }
+                        reader.Close();
+                    }
+                }
+            }
+        }
+
+        public async Task AddCountInCheck(string checkId, string category)
+        {
+            using (DbCommand command = db.Database.GetDbConnection().CreateCommand())
+            {
+                command.CommandText = "SELECT ItemData.YandexGPT FROM [Checks].[dbo].[ItemData] WHERE ItemData.CheckId = @p3 AND ItemData.YandexGPT = @p4";
+                var parameter1 = new SqlParameter("@p3", checkId);
+                var parameter2 = new SqlParameter("@p4", category);
+                command.Parameters.Add(parameter1);
+                command.Parameters.Add(parameter2);
+                db.Database.OpenConnection();
+                var count = 0;
+                using (var reader = command.ExecuteReader())
+                {
+                    if (reader.HasRows)
+                    {
+                        while (reader.Read())
+                        {
+                            count++;
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("No rows found.");
+                    }
+                    reader.Close();
+                }
+                command.CommandText = $"UPDATE [Checks].[dbo].[MarketBusket] SET [{category.Replace(' ', '_').Replace('-', '_')}] = @p6 WHERE MarketBusket.CheckId = @p7";
+                parameter2 = new SqlParameter("@p6", count);
+                var parameter3 = new SqlParameter("@p7", checkId);
+                command.Parameters.Add(parameter2);
+                command.Parameters.Add(parameter3);
+                var answer2 = await command.ExecuteNonQueryAsync();
+                if (answer2 == 1)
+                {
+                    Console.WriteLine("OK");
+                }
+            }
+        }
+
+        public int GetFrequency(string lhs, string rhs)
+        {
+            int result = 0;
+            using (DbCommand command = db.Database.GetDbConnection().CreateCommand())
+            {
+                command.CommandText = $"SELECT COUNT(*) FROM[Checks].[dbo].[MarketBusket] WHERE [{lhs}] != 0 AND[{rhs}] != 0";
+                db.Database.OpenConnection();
+                using (var reader = command.ExecuteReader())
+                {
+                    if (reader.HasRows)
+                    {
+                        while (reader.Read())
+                        {
+                            result = reader.GetInt32(0);
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("No rows found.");
+                    }
+                    reader.Close();
+                }
+            }
+            return result;
+        }
+
+        public int GetFrequency(string lhs)
+        {
+            int result = 0;
+            using (DbCommand command = db.Database.GetDbConnection().CreateCommand())
+            {
+                command.CommandText = $"SELECT COUNT(*) FROM[Checks].[dbo].[MarketBusket] WHERE [{lhs}] != 0";
+                db.Database.OpenConnection();
+                using (var reader = command.ExecuteReader())
+                {
+                    if (reader.HasRows)
+                    {
+                        while (reader.Read())
+                        {
+                            result = reader.GetInt32(0);
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("No rows found.");
+                    }
+                    reader.Close();
+                }
+            }
+            return result;
+        }
+
+        public int GetCountCheck()
+        {
+            int result = 0;
+            using (DbCommand command = db.Database.GetDbConnection().CreateCommand())
+            {
+                command.CommandText = "SELECT COUNT(*) FROM [Checks].[dbo].[MarketBusket] ";
+                db.Database.OpenConnection();
+                using (var reader = command.ExecuteReader())
+                {
+                    if (reader.HasRows)
+                    {
+                        while (reader.Read())
+                        {
+                            result = reader.GetInt32(0);
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("No rows found.");
+                    }
+                    reader.Close();
+                }
+            }
+            return result;
         }
 
         public async Task<int?> GetAllCost(string productName)
@@ -256,7 +517,7 @@ namespace CheckAnalysis.Data.Repositories
         {
             CheckData checkData = new CheckData(check);
             var checkId = db.CheckData.Where(x => x.CheckId == check._id).Select(x => x.CheckId).ToList();
-            if(checkId.Count == 0)
+            if (checkId.Count == 0)
             {
                 Console.WriteLine(check._id);
                 await db.CheckData.AddAsync(checkData);
